@@ -1,0 +1,6 @@
+{
+  "name": "KAPSUL4D — Portal Jadwal & Prediksi Bola",
+  "description": "Portal jadwal sepak bola, prediksi skor akurat, rekomendasi mix parlay, dan testimoni member KAPSUL4D.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

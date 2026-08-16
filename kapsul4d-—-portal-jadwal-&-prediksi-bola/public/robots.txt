@@ -1,0 +1,10 @@
+# robots.txt for KAPSUL4D Portal Prediksi & Jadwal Bola
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Crawl-delay for optimal indexing
+Crawl-delay: 1
+
+# Sitemaps Location
+Sitemap: https://kapsulgoal.vercel.app/sitemap.xml
