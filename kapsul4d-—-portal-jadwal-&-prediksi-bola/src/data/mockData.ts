@@ -7,7 +7,6 @@ export const POPUP_BANNER_IMG = "https://ik.imagekit.io/8btthcfrf/Uploud/e6a972c
 export const BALL_ICON = "https://ik.imagekit.io/8btthcfrf/Uploud/Logo%20Bola%20k4d.png";
 
 export const MATCHES_DATA: Match[] = [
-export const MATCHES_DATA: Match[] = [
   // ==================== 19 AGUSTUS 2026 ====================
 
   // ASEAN CHAMPIONSHIP 2026
