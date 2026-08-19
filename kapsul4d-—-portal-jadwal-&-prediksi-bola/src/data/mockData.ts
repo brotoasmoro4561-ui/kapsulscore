@@ -23,8 +23,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'W', 'W'],
     awayForm: ['L', 'W', 'D', 'L', 'W'],
     homeRank: 1,
-    awayRank: 3,
-    handicap: '0 : 1 1/4'
+    awayRank: 3
   },
 
   // RUSSIA CUP
@@ -41,8 +40,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['L', 'D', 'W', 'L', 'D'],
     awayForm: ['W', 'W', 'W', 'W', 'D'],
     homeRank: 10,
-    awayRank: 1,
-    handicap: '1 : 0'
+    awayRank: 1
   },
   {
     id: 'm3',
@@ -57,8 +55,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['W', 'W', 'L', 'D', 'W'],
     homeRank: 6,
-    awayRank: 3,
-    handicap: '3/4 : 0'
+    awayRank: 3
   },
 
   // CHINA FOOTBALL SUPER LEAGUE
@@ -75,8 +72,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'W', 'L'],
     awayForm: ['L', 'D', 'L', 'W', 'L'],
     homeRank: 9,
-    awayRank: 6,
-    handicap: '0 : 1 1/4'
+    awayRank: 6
   },
 
   // AUSTRALIA CUP
@@ -93,8 +89,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['W', 'W', 'D', 'L', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '3/4 : 0'
+    awayRank: 0
   },
 
   // KOREA CUP
@@ -111,8 +106,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['W', 'W', 'L', 'D', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 0'
+    awayRank: 0
   },
 
   // RUSSIA FIRST LEAGUE
@@ -129,8 +123,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['L', 'L', 'D', 'L', 'W'],
     awayForm: ['L', 'D', 'L', 'W', 'L'],
     homeRank: 18,
-    awayRank: 16,
-    handicap: '0 : 3/4'
+    awayRank: 16
   },
 
   // KAZAKHSTAN CUP
@@ -147,8 +140,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['L', 'D', 'L', 'W', 'L'],
     awayForm: ['W', 'W', 'D', 'W', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '1 1/2 : 0'
+    awayRank: 0
   },
   {
     id: 'm9',
@@ -163,8 +155,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['L', 'W', 'D', 'L', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
 
 
@@ -184,8 +175,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'W', 'L'],
     awayForm: ['L', 'D', 'L', 'W', 'L'],
     homeRank: 2,
-    awayRank: 18,
-    handicap: '0 : 1 1/2'
+    awayRank: 18
   },
 
   // UEFA CHAMPIONS LEAGUE QUALIFIERS
@@ -202,8 +192,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'W', 'W'],
     awayForm: ['L', 'W', 'D', 'L', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 3/4'
+    awayRank: 0
   },
   {
     id: 'm12',
@@ -218,8 +207,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['D', 'W', 'L', 'W', 'D'],
     awayForm: ['W', 'W', 'L', 'W', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
   {
     id: 'm13',
@@ -234,8 +222,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 3/4'
+    awayRank: 0
   },
   {
     id: 'm14',
@@ -250,8 +237,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'W', 'L', 'W'],
     awayForm: ['L', 'W', 'D', 'L', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
 
   // RUSSIA CUP
@@ -268,8 +254,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['W', 'L', 'D', 'W', 'L'],
     homeRank: 4,
-    awayRank: 5,
-    handicap: '1/4 : 0'
+    awayRank: 5
   },
 
   // RUSSIA FIRST LEAGUE
@@ -286,8 +271,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['W', 'W', 'W', 'D', 'W'],
     homeRank: 3,
-    awayRank: 1,
-    handicap: '3/4 : 0'
+    awayRank: 1
   },
 
   // ENGLISH FOOTBALL LEAGUE TROPHY
@@ -304,8 +288,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['W', 'W', 'L', 'D', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
 
   // BELARUS PREMIER LEAGUE
@@ -322,8 +305,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'L', 'D', 'L', 'L'],
     homeRank: 3,
-    awayRank: 12,
-    handicap: '0 : 1 1/2'
+    awayRank: 12
   },
 
   // SOUTH AFRICA PREMIERSHIP
@@ -340,8 +322,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'W', 'W'],
     awayForm: ['L', 'L', 'D', 'L', 'W'],
     homeRank: 7,
-    awayRank: 14,
-    handicap: '0 : 1 1/2'
+    awayRank: 14
   },
 
   // ARGENTINA PRIMERA NACIONAL
@@ -358,8 +339,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/2'
+    awayRank: 0
   },
 
   // COPA LIBERTADORES
@@ -376,8 +356,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['W', 'W', 'W', 'D', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '3/4 : 0'
+    awayRank: 0
   },
   {
     id: 'm22',
@@ -392,8 +371,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['D', 'W', 'L', 'D', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
   {
     id: 'm23',
@@ -408,8 +386,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'W', 'D', 'W'],
     awayForm: ['L', 'W', 'D', 'L', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 3/4'
+    awayRank: 0
   },
 
   // COPA SUDAMERICANA
@@ -426,8 +403,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'W'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
   {
     id: 'm25',
@@ -442,8 +418,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['D', 'L', 'W', 'L', 'D'],
     awayForm: ['W', 'W', 'L', 'D', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 0'
+    awayRank: 0
   },
   {
     id: 'm26',
@@ -458,8 +433,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'L'],
     awayForm: ['W', 'W', 'W', 'D', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '1/4 : 0'
+    awayRank: 0
   },
 
   // ARGENTINA CUP
@@ -476,8 +450,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 0'
+    awayRank: 0
   },
 
   // BRAZIL SERIE B
@@ -494,8 +467,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 4,
-    awayRank: 12,
-    handicap: '0 : 3/4'
+    awayRank: 12
   },
   {
     id: 'm29',
@@ -510,8 +482,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['L', 'L', 'D', 'W', 'L'],
     awayForm: ['W', 'D', 'W', 'L', 'D'],
     homeRank: 17,
-    awayRank: 6,
-    handicap: '0 : 0'
+    awayRank: 6
   },
   {
     id: 'm30',
@@ -526,8 +497,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'L', 'L', 'D', 'L'],
     homeRank: 3,
-    awayRank: 20,
-    handicap: '0 : 1 1/4'
+    awayRank: 20
   },
   {
     id: 'm31',
@@ -542,8 +512,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['L', 'D', 'W', 'L', 'D'],
     awayForm: ['W', 'W', 'L', 'D', 'W'],
     homeRank: 14,
-    awayRank: 5,
-    handicap: '0 : 1/4'
+    awayRank: 5
   },
   {
     id: 'm32',
@@ -558,8 +527,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['W', 'W', 'W', 'D', 'W'],
     homeRank: 13,
-    awayRank: 1,
-    handicap: '0 : 0'
+    awayRank: 1
   },
 
   // USL CHAMPIONSHIP
@@ -576,8 +544,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 0'
+    awayRank: 0
   },
 
   // CANADIAN PREMIER LEAGUE
@@ -594,8 +561,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['W', 'W', 'L', 'D', 'W'],
     homeRank: 4,
-    awayRank: 3,
-    handicap: '0 : 0'
+    awayRank: 3
   },
   {
     id: 'm35',
@@ -610,8 +576,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'D', 'L', 'W', 'L'],
     homeRank: 2,
-    awayRank: 5,
-    handicap: '0 : 3/4'
+    awayRank: 5
   },
 
   // USA MAJOR LEAGUE SOCCER
@@ -628,8 +593,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['L', 'D', 'W', 'L', 'D'],
     awayForm: ['W', 'L', 'D', 'W', 'L'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
   {
     id: 'm37',
@@ -644,8 +608,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 3/4'
+    awayRank: 0
   },
   {
     id: 'm38',
@@ -660,8 +623,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['D', 'L', 'W', 'D', 'L'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '1/4 : 0'
+    awayRank: 0
   },
   {
     id: 'm39',
@@ -676,8 +638,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['L', 'D', 'L', 'W', 'L'],
     awayForm: ['W', 'W', 'D', 'L', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
   {
     id: 'm40',
@@ -692,8 +653,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['L', 'W', 'L', 'D', 'L'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '1/4 : 0'
+    awayRank: 0
   },
   {
     id: 'm41',
@@ -708,8 +668,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['W', 'W', 'D', 'W', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 0'
+    awayRank: 0
   },
   {
     id: 'm42',
@@ -724,8 +683,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['D', 'W', 'L', 'D', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/2'
+    awayRank: 0
   },
   {
     id: 'm43',
@@ -740,8 +698,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['L', 'D', 'W', 'L', 'D'],
     awayForm: ['L', 'W', 'D', 'L', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '1/2 : 0'
+    awayRank: 0
   },
   {
     id: 'm44',
@@ -756,8 +713,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 3/4'
+    awayRank: 0
   },
   {
     id: 'm45',
@@ -772,8 +728,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['D', 'L', 'W', 'L', 'D'],
     awayForm: ['W', 'W', 'W', 'D', 'L'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 0'
+    awayRank: 0
   },
   {
     id: 'm46',
@@ -788,8 +743,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'D', 'L', 'W', 'L'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 3/4'
+    awayRank: 0
   },
   {
     id: 'm47',
@@ -804,8 +758,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['L', 'W', 'D', 'L', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/2'
+    awayRank: 0
   },
   {
     id: 'm48',
@@ -820,8 +773,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'L', 'D', 'W', 'L'],
     awayForm: ['D', 'W', 'L', 'D', 'W'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1'
+    awayRank: 0
   },
   {
     id: 'm49',
@@ -836,8 +788,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['L', 'D', 'W', 'L', 'D'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   },
   {
     id: 'm50',
@@ -852,8 +803,7 @@ export const MATCHES_DATA: Match[] = [
     homeForm: ['W', 'W', 'D', 'L', 'W'],
     awayForm: ['L', 'L', 'D', 'W', 'L'],
     homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
+    awayRank: 0
   }
 ];
 
@@ -1599,8 +1549,6 @@ export const PREDICTIONS_DATA: Prediction[] = [
     h2hSummary: 'Forge FC menang 3 dari 4 pertemuan.',
     keyPlayer: 'Tristan Borges'
   },
-
-  // MLS PREDICTIONS
   {
     id: 'p36',
     matchId: 'm36',
@@ -1915,6 +1863,233 @@ export const PREDICTIONS_DATA: Prediction[] = [
     note: 'LA Galaxy adalah legenda MLS.',
     h2hSummary: 'LA Galaxy menang 3 dari 4 pertemuan.',
     keyPlayer: 'Riqui Puig'
+  }
+];
+
+export const PARLAY_PACKAGES: ParlayPackage[] = [
+  {
+    id: 'pkg-1',
+    title: '👑 SULTAN MIX PARLAY (3-TIM SUPER ACCURATE)',
+    source: 'Rekomendasi Utama KAPSUL4D VIP',
+    badge: 'Akurasi 82%',
+    totalOdds: 4.88,
+    riskLevel: 'Aman',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm10')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm10')!,
+        odds: 1.50,
+        pick: 'Atletico Madrid Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm23')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm23')!,
+        odds: 1.58,
+        pick: 'Flamengo Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm19')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm19')!,
+        odds: 1.55,
+        pick: 'Mamelodi Sundowns Menang'
+      }
+    ]
+  },
+  {
+    id: 'pkg-2',
+    title: '⚡ BIG MATCH WEEKEND COMBO (3-TIM TINGGI)',
+    source: 'Kombinasi Liga Top Dunia',
+    badge: 'Odds @6.45x',
+    totalOdds: 6.45,
+    riskLevel: 'Sedang',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm11')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
+        odds: 1.92,
+        pick: 'Celtic Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm21')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm21')!,
+        odds: 1.65,
+        pick: 'Palmeiras Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm26')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm26')!,
+        odds: 1.62,
+        pick: 'River Plate Menang'
+      }
+    ]
+  },
+  {
+    id: 'pkg-3',
+    title: '🔥 PARLAY HOT (3-TIM) - 20 AGUSTUS',
+    source: 'Rekomendasi KAPSUL4D Special',
+    badge: 'Hot Pick',
+    totalOdds: 4.50,
+    riskLevel: 'Sedang',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm10')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm10')!,
+        odds: 1.50,
+        pick: 'Atletico Madrid Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm46')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm46')!,
+        odds: 1.68,
+        pick: 'Seattle Sounders Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm50')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm50')!,
+        odds: 1.72,
+        pick: 'LA Galaxy Menang'
+      }
+    ]
+  },
+  {
+    id: 'pkg-4',
+    title: '🏆 JACKPOT PARLAY MONSTER (4-TIM SPECIAL)',
+    source: 'Rekomendasi Cuan Maksimal',
+    badge: 'Potensi JP @16.8x',
+    totalOdds: 16.82,
+    riskLevel: 'Tinggi (Jackpot)',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm10')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm10')!,
+        odds: 1.50,
+        pick: 'Atletico Madrid Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm14')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm14')!,
+        odds: 1.72,
+        pick: 'Hapoel Beer Sheva Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm23')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm23')!,
+        odds: 1.58,
+        pick: 'Flamengo Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm46')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm46')!,
+        odds: 1.68,
+        pick: 'Seattle Sounders Menang'
+      }
+    ]
+  }
+];
+
+export const TESTIMONIALS_DATA: Testimonial[] = [
+  {
+    id: 't1',
+    user: 'Budi Santoso',
+    city: 'Jakarta Barat',
+    type: 'wd',
+    amount: 18500000,
+    text: 'WD Rp 18.500.000 dalam 3 menit langsung masuk BCA tanpa potongan! CS ramah, proses secepat kilat. KAPSUL4D memang raja betting terpercaya sejak dulu! 🔥',
+    stars: 5,
+    time: '5 menit lalu',
+    avatarColor: 'green',
+    bank: 'BCA',
+    verified: true
+  },
+  {
+    id: 't2',
+    user: 'Rina Wijaya',
+    city: 'Surabaya Timur',
+    type: 'jp',
+    amount: 38750000,
+    text: 'Modal deposit 150rb tembus Mix Parlay 4 tim odds @25.8x dapat 38 Juta lebih! Pasang sesuai tabel prediksi skor di portal ini. Gila banget rasanya! 🏆',
+    stars: 5,
+    time: '18 menit lalu',
+    avatarColor: 'amber',
+    gameType: 'Mix Parlay Sportsbook',
+    verified: true
+  },
+  {
+    id: 't3',
+    user: 'Hendri Gunawan',
+    city: 'Medan',
+    type: 'wd',
+    amount: 25000000,
+    text: 'Tarik dana 25 juta via Mandiri selesai hitungan 4 menit. Gak ada drama suruh turnover ribet. Recommended banget buat bettor bola sejati! 💸',
+    stars: 5,
+    time: '42 menit lalu',
+    avatarColor: 'green',
+    bank: 'Mandiri',
+    verified: true
+  },
+  {
+    id: 't4',
+    user: 'Agus Pratama',
+    city: 'Bandung',
+    type: 'bonus',
+    amount: 1500000,
+    text: 'Baru gabung langsung dikasih Bonus New Member 100% tanpa ribet. Deposit 1.5jt langsung jadi 3jt di saldo awal. Keren pelayanannya! 🎁',
+    stars: 5,
+    time: '1 jam lalu',
+    avatarColor: 'purple',
+    verified: true
+  },
+  {
+    id: 't5',
+    user: 'Siti Rahayu',
+    city: 'Semarang',
+    type: 'win',
+    amount: 14200000,
+    text: 'Prediksi Feyenoord & Ajax kemarin tembus telak! Saya pasang single bet combo menang 14.2jt. Web ini informasinya paling update & akurat! 🏅',
+    stars: 5,
+    time: '2 jam lalu',
+    avatarColor: 'pink',
+    gameType: 'Single Bet Bola',
+    verified: true
+  },
+  {
+    id: 't6',
+    user: 'Joko Susilo',
+    city: 'Yogyakarta',
+    type: 'wd',
+    amount: 9800000,
+    text: 'WD 9.8 Juta langsung diproses tengah malam jam 2 pagi. Layanan 24 jam non stop beneran nyata, bukan bot! Makasih KAPSUL4D mantap! 🌟',
+    stars: 5,
+    time: '3 jam lalu',
+    avatarColor: 'green',
+    bank: 'BRI',
+    verified: true
+  },
+  {
+    id: 't7',
+    user: 'Dewi Lestari',
+    city: 'Makassar',
+    type: 'jp',
+    amount: 52400000,
+    text: 'Sensational Jackpot! Iseng main bola sambil nunggu jadwal, pasang parlay 5 laga masuk semua! Langsung auto cair ke rekening BRI. Hoki seumur hidup! 🎉',
+    stars: 5,
+    time: '4 jam lalu',
+    avatarColor: 'red',
+    gameType: 'Sultan Parlay',
+    verified: true
+  },
+  {
+    id: 't8',
+    user: 'Rudi Hartono',
+    city: 'Denpasar, Bali',
+    type: 'wd',
+    amount: 12500000,
+    text: 'Situs paling fairplay dan amanah. Tarik saldo puluhan juta selalu lancar tanpa penundaan. Link alternatifnya juga anti blokir. Top! 🚀',
+    stars: 5,
+    time: '6 jam lalu',
+    avatarColor: 'amber',
+    bank: 'BCA',
+    verified: true
   }
 ];
 
