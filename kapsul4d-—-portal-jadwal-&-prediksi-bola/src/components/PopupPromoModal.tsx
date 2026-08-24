@@ -66,7 +66,7 @@ export const PopupPromoModal: React.FC = () => {
           </div>
 
           <h3 className="text-xl font-black font-display text-white">
-            BONUS DEPOSIT 100% NEW MEMBER
+            BONUS DEPOSIT 50% NEW MEMBER
           </h3>
           <p className="text-xs text-white/60 mt-1.5 leading-relaxed max-w-sm mx-auto">
             Pasaran bola parlay terlengkap, odds tertinggi, dan jaminan withdraw super cepat tanpa batas nominal!
