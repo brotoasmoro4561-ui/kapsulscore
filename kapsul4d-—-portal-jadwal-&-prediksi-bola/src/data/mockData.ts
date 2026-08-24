@@ -1180,6 +1180,366 @@ export const PREDICTIONS_DATA: Prediction[] = [
   }
 ];
 
+export const PARLAY_PACKAGES: ParlayPackage[] = [
+  {
+    id: 'pkg-1',
+    title: '👑 SULTAN MIX PARLAY (3-TIM SUPER ACCURATE)',
+    source: 'Rekomendasi Utama KAPSUL4D VIP',
+    badge: 'Akurasi 82%',
+    totalOdds: 4.88,
+    riskLevel: 'Aman',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm21')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm21')!,
+        odds: 1.58,
+        pick: 'Chelsea Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm18')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm18')!,
+        odds: 1.68,
+        pick: 'AS Roma Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm24')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm24')!,
+        odds: 2.10,
+        pick: 'Malaga Menang'
+      }
+    ]
+  },
+  {
+    id: 'pkg-2',
+    title: '⚡ BIG MATCH WEEKEND COMBO (3-TIM TINGGI)',
+    source: 'Kombinasi Liga Top Eropa',
+    badge: 'Odds @6.45x',
+    totalOdds: 6.45,
+    riskLevel: 'Sedang',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm2')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm2')!,
+        odds: 1.48,
+        pick: 'FC Koln Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm4')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm4')!,
+        odds: 1.40,
+        pick: 'Wolfsburg Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm20')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm20')!,
+        odds: 1.52,
+        pick: 'Schalke 04 Menang'
+      }
+    ]
+  },
+  {
+    id: 'pkg-3',
+    title: '🔥 PARLAY HOT (3-TIM) - 25 AGUSTUS',
+    source: 'Rekomendasi KAPSUL4D Special',
+    badge: 'Hot Pick',
+    totalOdds: 4.50,
+    riskLevel: 'Sedang',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm8')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
+        odds: 1.62,
+        pick: 'Brondby Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm21')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm21')!,
+        odds: 1.58,
+        pick: 'Chelsea Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm15')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm15')!,
+        odds: 1.68,
+        pick: 'Jong PSV Menang'
+      }
+    ]
+  },
+  {
+    id: 'pkg-4',
+    title: '🏆 JACKPOT PARLAY MONSTER (4-TIM SPECIAL)',
+    source: 'Rekomendasi Cuan Maksimal',
+    badge: 'Potensi JP @16.8x',
+    totalOdds: 16.82,
+    riskLevel: 'Tinggi (Jackpot)',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm2')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm2')!,
+        odds: 1.48,
+        pick: 'FC Koln Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm4')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm4')!,
+        odds: 1.40,
+        pick: 'Wolfsburg Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm20')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm20')!,
+        odds: 1.52,
+        pick: 'Schalke 04 Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm21')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm21')!,
+        odds: 1.58,
+        pick: 'Chelsea Menang'
+      }
+    ]
+  },
+  {
+    id: 'pkg-5',
+    title: '🇪🇸 LA LIGA & 🇮🇹 SERIE A COMBO (3-TIM)',
+    source: 'Rekomendasi Liga Spanyol & Italia',
+    badge: 'Odds @5.50x',
+    totalOdds: 5.50,
+    riskLevel: 'Sedang',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm12')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm12')!,
+        odds: 1.72,
+        pick: 'Osasuna Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm5')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm5')!,
+        odds: 2.20,
+        pick: 'Draw Bologna vs Lazio'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm18')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm18')!,
+        odds: 1.68,
+        pick: 'AS Roma Menang'
+      }
+    ]
+  },
+  {
+    id: 'pkg-6',
+    title: '🌎 AMERICA COMBO (3-TIM)',
+    source: 'Rekomendasi Liga Amerika',
+    badge: 'Odds @5.25x',
+    totalOdds: 5.25,
+    riskLevel: 'Sedang',
+    legs: [
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm26')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm26')!,
+        odds: 1.72,
+        pick: 'Tigre Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm28')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm28')!,
+        odds: 1.72,
+        pick: 'Everton Vina del Mar Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm27')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm27')!,
+        odds: 2.20,
+        pick: 'Draw Botafogo vs Atl Paranaense'
+      }
+    ]
+  }
+];
+
+export const TESTIMONIALS_DATA: Testimonial[] = [
+  {
+    id: 't1',
+    user: 'Budi Santoso',
+    city: 'Jakarta Barat',
+    type: 'wd',
+    amount: 18500000,
+    text: 'WD Rp 18.500.000 dalam 3 menit langsung masuk BCA tanpa potongan! CS ramah, proses secepat kilat. KAPSUL4D memang raja betting terpercaya sejak dulu! 🔥',
+    stars: 5,
+    time: '5 menit lalu',
+    avatarColor: 'green',
+    bank: 'BCA',
+    verified: true
+  },
+  {
+    id: 't2',
+    user: 'Rina Wijaya',
+    city: 'Surabaya Timur',
+    type: 'jp',
+    amount: 38750000,
+    text: 'Modal deposit 150rb tembus Mix Parlay 4 tim odds @25.8x dapat 38 Juta lebih! Pasang sesuai tabel prediksi skor di portal ini. Gila banget rasanya! 🏆',
+    stars: 5,
+    time: '18 menit lalu',
+    avatarColor: 'amber',
+    gameType: 'Mix Parlay Sportsbook',
+    verified: true
+  },
+  {
+    id: 't3',
+    user: 'Hendri Gunawan',
+    city: 'Medan',
+    type: 'wd',
+    amount: 25000000,
+    text: 'Tarik dana 25 juta via Mandiri selesai hitungan 4 menit. Gak ada drama suruh turnover ribet. Recommended banget buat bettor bola sejati! 💸',
+    stars: 5,
+    time: '42 menit lalu',
+    avatarColor: 'green',
+    bank: 'Mandiri',
+    verified: true
+  },
+  {
+    id: 't4',
+    user: 'Agus Pratama',
+    city: 'Bandung',
+    type: 'bonus',
+    amount: 1500000,
+    text: 'Baru gabung langsung dikasih Bonus New Member 100% tanpa ribet. Deposit 1.5jt langsung jadi 3jt di saldo awal. Keren pelayanannya! 🎁',
+    stars: 5,
+    time: '1 jam lalu',
+    avatarColor: 'purple',
+    verified: true
+  },
+  {
+    id: 't5',
+    user: 'Siti Rahayu',
+    city: 'Semarang',
+    type: 'win',
+    amount: 14200000,
+    text: 'Prediksi Premier League & La Liga kemarin tembus semua! Saya pasang single bet combo menang 14.2jt. Web ini informasinya paling update & akurat! 🏅',
+    stars: 5,
+    time: '2 jam lalu',
+    avatarColor: 'pink',
+    gameType: 'Single Bet Bola',
+    verified: true
+  },
+  {
+    id: 't6',
+    user: 'Joko Susilo',
+    city: 'Yogyakarta',
+    type: 'wd',
+    amount: 9800000,
+    text: 'WD 9.8 Juta langsung diproses tengah malam jam 2 pagi. Layanan 24 jam non stop beneran nyata, bukan bot! Makasih KAPSUL4D mantap! 🌟',
+    stars: 5,
+    time: '3 jam lalu',
+    avatarColor: 'green',
+    bank: 'BRI',
+    verified: true
+  },
+  {
+    id: 't7',
+    user: 'Dewi Lestari',
+    city: 'Makassar',
+    type: 'jp',
+    amount: 52400000,
+    text: 'Sensational Jackpot! Iseng main bola sambil nunggu jadwal, pasang parlay 5 laga masuk semua! Langsung auto cair ke rekening BRI. Hoki seumur hidup! 🎉',
+    stars: 5,
+    time: '4 jam lalu',
+    avatarColor: 'red',
+    gameType: 'Sultan Parlay',
+    verified: true
+  },
+  {
+    id: 't8',
+    user: 'Rudi Hartono',
+    city: 'Denpasar, Bali',
+    type: 'wd',
+    amount: 12500000,
+    text: 'Situs paling fairplay dan amanah. Tarik saldo puluhan juta selalu lancar tanpa penundaan. Link alternatifnya juga anti blokir. Top! 🚀',
+    stars: 5,
+    time: '6 jam lalu',
+    avatarColor: 'amber',
+    bank: 'BCA',
+    verified: true
+  },
+  {
+    id: 't9',
+    user: 'Bambang Suharto',
+    city: 'Surabaya',
+    type: 'win',
+    amount: 8200000,
+    text: 'Ikutin prediksi Chelsea & AS Roma kemarin, 2 single bet masuk semua! WD 8.2jt langsung cair. Terima kasih KAPSUL4D! ✅',
+    stars: 5,
+    time: '8 jam lalu',
+    avatarColor: 'purple',
+    gameType: 'Single Bet Bola',
+    verified: true
+  },
+  {
+    id: 't10',
+    user: 'Mega Putri',
+    city: 'Medan',
+    type: 'bonus',
+    amount: 750000,
+    text: 'Dapat bonus cashback 10% dari total kekalahan minggu lalu. Lumayan banget buat modal main lagi. KAPSUL4D selalu perhatian ke membernya. 🙏',
+    stars: 4,
+    time: '10 jam lalu',
+    avatarColor: 'pink',
+    verified: true
+  },
+  {
+    id: 't11',
+    user: 'Hardi Kusuma',
+    city: 'Bali',
+    type: 'wd',
+    amount: 34000000,
+    text: 'WD 34 Juta dalam 2 menit! Saya tidak percaya awalnya, tapi ternyata beneran cepat. Ini situs paling legit sepanjang sejarah saya main betting. 💯',
+    stars: 5,
+    time: '12 jam lalu',
+    avatarColor: 'green',
+    bank: 'Mandiri',
+    verified: true
+  },
+  {
+    id: 't12',
+    user: 'Rika Permata',
+    city: 'Bandung',
+    type: 'jp',
+    amount: 21500000,
+    text: 'Jackpot 21.5 Juta dari parlay 3 tim! Modal cuma 200rb. Pakai rekomendasi dari KAPSUL4D memang sering JP! Makasih ya admin! 🎰',
+    stars: 5,
+    time: '1 hari lalu',
+    avatarColor: 'amber',
+    gameType: 'Mix Parlay Sportsbook',
+    verified: true
+  },
+  {
+    id: 't13',
+    user: 'Andi Wijaya',
+    city: 'Jakarta Selatan',
+    type: 'wd',
+    amount: 45000000,
+    text: 'WD 45 Juta dalam 5 menit! Ini bukan kaleng-kaleng. KAPSUL4D emang paling cepat proses WD-nya. Gak pake lama langsung cair! 💰',
+    stars: 5,
+    time: '1 hari lalu',
+    avatarColor: 'green',
+    bank: 'BCA',
+    verified: true
+  },
+  {
+    id: 't14',
+    user: 'Nina Herlina',
+    city: 'Bandung',
+    type: 'win',
+    amount: 5600000,
+    text: 'Prediksi Brondby & Chelsea kemarin masuk semua. Modal 500rb jadi 5.6jt. Makasih KAPSUL4D selalu kasih prediksi akurat! 🏅',
+    stars: 5,
+    time: '1 hari lalu',
+    avatarColor: 'pink',
+    gameType: 'Single Bet Bola',
+    verified: true
+  }
+];
+
 export const INITIAL_TRANSACTIONS: LiveTransaction[] = [
   { id: 'tx-1', type: 'WITHDRAW', user: 'bud***88', amount: 18500000, method: 'BCA', time: 'Baru saja', status: 'SUCCESS' },
   { id: 'tx-2', type: 'DEPOSIT', user: 'riz***99', amount: 500000, method: 'QRIS', time: '1m lalu', status: 'SUCCESS' },
