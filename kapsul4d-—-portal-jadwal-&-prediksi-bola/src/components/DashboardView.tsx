@@ -74,39 +74,6 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
         </a>
       </div>
 
-    <div className="relative my-6 anim-in" style={{ animationDelay: '0.1s' }}>
-      {/* Garis dekoratif kiri */}
-      <div className="absolute left-0 top-1/2 w-[15%] h-[1px] bg-gradient-to-r from-transparent to-cyan-400/50 hidden md:block"></div>
-      
-      {/* Teks Utama */}
-      <div className="text-center px-4">
-        <div className="inline-block bg-gradient-to-r from-cyan-400/10 via-indigo-500/10 to-amber-400/10 backdrop-blur-sm px-6 py-3 rounded-2xl border border-cyan-400/20 shadow-lg shadow-cyan-400/5">
-          <p className="text-xs sm:text-sm font-bold tracking-wider">
-            <span className="bg-gradient-to-r from-cyan-400 via-indigo-500 to-amber-400 bg-clip-text text-transparent animate-pulse">
-              Di Produksi Oleh
-            </span>
-            <span className="text-white font-extrabold mx-2">✦</span>
-            <span className="bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500 bg-clip-text text-transparent animate-pulse">
-              SEO KRITING
-            </span>
-            <span className="text-cyan-400 font-bold mx-2">✕</span>
-            <span className="bg-gradient-to-r from-amber-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent animate-pulse">
-              KAPSUL4D
-            </span>
-          </p>
-          
-          {/* Dot animasi di bawah */}
-          <div className="flex justify-center gap-1.5 mt-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
-            <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse" style={{ animationDelay: '0.2s' }}></span>
-            <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" style={{ animationDelay: '0.4s' }}></span>
-            <span className="w-1.5 h-1.5 rounded-full bg-pink-400 animate-pulse" style={{ animationDelay: '0.6s' }}></span>
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" style={{ animationDelay: '0.8s' }}></span>
-          </div>
-        </div>
-      </div>
-      
-
       {/* 2. Top Big Match Spotlight Slider */}
       <div className="space-y-3">
         <div className="flex items-center justify-between">
