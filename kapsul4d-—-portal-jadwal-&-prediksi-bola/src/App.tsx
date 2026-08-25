@@ -24,6 +24,16 @@ import { LiveTransaksiView } from './components/LiveTransaksiView';
 import { ParlaySlipDrawer } from './components/ParlaySlipDrawer';
 import { Footer } from './components/Footer';
 
+// ============================================================
+// IMPORT KOMPONEN BARU
+// ============================================================
+import { ParticleBackground } from './components/ParticleBackground';
+
+// ============================================================
+// IMPORT CSS PREMIUM EFFECTS - Pastikan index.css sudah diupdate
+// ============================================================
+import './index.css';
+
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('dashboard');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -99,7 +109,15 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen bg-[#05060c] text-[#eef2fb] flex flex-col selection:bg-cyan-500 selection:text-black">
-      {/* Background Ambience & Cyber Grid */}
+      
+      {/* ============================================================
+          PARTICLE BACKGROUND - LAYER PALING BAWAH
+          ============================================================ */}
+      <ParticleBackground />
+
+      {/* ============================================================
+          BACKGROUND AMBIENCE & CYBER GRID - LAYER KEDUA
+          ============================================================ */}
       <div className="bg-ambient-blob">
         <span className="blob-1" />
         <span className="blob-2" />
@@ -107,7 +125,9 @@ export default function App() {
       </div>
       <div className="bg-cyber-grid" />
 
-      {/* Toast Notification Alert */}
+      {/* ============================================================
+          TOAST NOTIFICATION
+          ============================================================ */}
       {toastMessage && (
         <div className="fixed bottom-5 right-5 z-50 px-4 py-3 rounded-2xl bg-[#091224] border border-cyan-400/40 text-cyan-200 text-xs font-bold shadow-[0_0_30px_rgba(34,211,238,0.3)] flex items-center gap-2 animate-in slide-in-from-bottom-5 duration-300">
           <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
@@ -115,11 +135,16 @@ export default function App() {
         </div>
       )}
 
-      {/* Official Promo Popup Modal */}
+      {/* ============================================================
+          OFFICIAL PROMO POPUP MODAL
+          ============================================================ */}
       <PopupPromoModal />
 
-      {/* Main Layout Wrap */}
+      {/* ============================================================
+          MAIN LAYOUT - DENGAN Z-INDEX DI ATAS PARTICLE
+          ============================================================ */}
       <div className="relative z-10 flex flex-1 min-h-screen">
+        
         {/* Responsive Sidebar */}
         <Sidebar
           activeTab={activeTab}
