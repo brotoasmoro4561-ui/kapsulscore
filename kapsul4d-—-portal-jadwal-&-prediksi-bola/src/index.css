@@ -165,3 +165,229 @@
   background: linear-gradient(180deg, #22d3ee, #818cf8);
   border-radius: 9999px;
 }
+/* ==========================================
+   PREMIUM VISUAL EFFECTS - KAPSULGOAL
+   ========================================== */
+
+/* 1. Animated Gradient Border */
+.animated-border {
+  position: relative;
+  background: linear-gradient(135deg, #05060c, #0a0d1a);
+  border-radius: 16px;
+  padding: 1px;
+}
+
+.animated-border::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 18px;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--angle, 0deg),
+    #22d3ee,
+    #818cf8,
+    #fbbf24,
+    #22d3ee
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: rotateBorder 4s linear infinite;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotateBorder {
+  to { --angle: 360deg; }
+}
+
+@supports not (--angle: 0deg) {
+  .animated-border::before {
+    background: linear-gradient(135deg, #22d3ee, #818cf8, #fbbf24, #22d3ee);
+    animation: none;
+  }
+}
+
+/* 2. Glow Text */
+.glow-text {
+  text-shadow: 0 0 20px rgba(34, 211, 238, 0.3),
+               0 0 60px rgba(34, 211, 238, 0.1);
+}
+
+/* 3. Shimmer Effect */
+.shimmer {
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.05) 50%,
+    transparent 60%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* 4. Floating Animation */
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* 5. Pulse Ring */
+.pulse-ring {
+  animation: pulseRing 2s ease-out infinite;
+}
+
+@keyframes pulseRing {
+  0% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.4); }
+  100% { box-shadow: 0 0 0 20px rgba(34, 211, 238, 0); }
+}
+
+/* 6. Glassmorphism with Glow */
+.glass-glow {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 40px rgba(34, 211, 238, 0.05),
+              inset 0 0 40px rgba(34, 211, 238, 0.02);
+}
+
+/* 7. Hover Scale Effect */
+.hover-scale {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+/* 8. Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #22d3ee, #818cf8, #fbbf24);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* 9. Live Badge Pulse */
+.live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  background: rgba(248, 113, 113, 0.15);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  color: #f87171;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.live-badge .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #f87171;
+  animation: livePulse 1s ease-in-out infinite;
+}
+
+@keyframes livePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(0.7); }
+}
+
+/* 10. Score Reveal */
+.score-reveal {
+  position: relative;
+  overflow: hidden;
+}
+
+.score-reveal::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.1), transparent);
+  transform: translateX(-100%);
+  animation: revealSweep 3s ease-in-out infinite;
+}
+
+@keyframes revealSweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* 11. Glow Card Border */
+.glow-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.glow-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.3), rgba(129, 140, 248, 0.1));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* 12. Neon Glow Text */
+.neon-cyan {
+  color: #22d3ee;
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.3),
+               0 0 20px rgba(34, 211, 238, 0.15),
+               0 0 40px rgba(34, 211, 238, 0.05);
+}
+
+.neon-indigo {
+  color: #818cf8;
+  text-shadow: 0 0 10px rgba(129, 140, 248, 0.3),
+               0 0 20px rgba(129, 140, 248, 0.15);
+}
+
+.neon-amber {
+  color: #fbbf24;
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.3),
+               0 0 20px rgba(251, 191, 36, 0.15);
+}
+
+/* 13. Particle Canvas Container */
+.particle-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+/* 14. Swipeable Slider Dots */
+.slider-dot-active {
+  background: linear-gradient(90deg, #22d3ee, #818cf8) !important;
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.4) !important;
+}
