@@ -210,7 +210,7 @@ export const JadwalView: React.FC<JadwalViewProps> = ({
                           </div>
                         </div>
 
-                        {/* Teams & Score Preview */}
+                        {/* Teams & Handicap */}
                         <div className="flex-1 flex items-center justify-between gap-2 px-2 sm:px-6">
                           {/* Home */}
                           <div className="flex items-center gap-2 flex-1 min-w-0">
@@ -234,12 +234,12 @@ export const JadwalView: React.FC<JadwalViewProps> = ({
                             </div>
                           </div>
 
-                          {/* VS / Score */}
+                          {/* VS / Handicap */}
                           <div className="flex flex-col items-center px-2 flex-shrink-0">
                             <span className="text-[10px] font-black text-white/30 font-display">VS</span>
-                            {pred && (
-                              <span className="text-xs font-extrabold text-cyan-300 font-display">
-                                {pred.score}
+                            {m.handicap && (
+                              <span className="text-[10px] font-extrabold text-amber-300 font-mono bg-amber-400/10 px-1.5 py-0.5 rounded border border-amber-400/20">
+                                {m.handicap}
                               </span>
                             )}
                           </div>
