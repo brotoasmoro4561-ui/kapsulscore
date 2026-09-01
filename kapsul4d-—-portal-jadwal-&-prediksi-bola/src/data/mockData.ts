@@ -7,289 +7,314 @@ export const POPUP_BANNER_IMG = "https://ik.imagekit.io/8btthcfrf/Uploud/e6a972c
 export const BALL_ICON = "https://ik.imagekit.io/8btthcfrf/Uploud/Logo%20Bola%20k4d.png";
 
 export const MATCHES_DATA: Match[] = [
-  // ==================== 31 AGUSTUS 2026 ====================
+  // ==================== 1 SEPTEMBER 2026 ====================
 
-  // GREECE SUPER LEAGUE
+  // ITALY CUP
   {
     id: 'm1',
-    date: '31/08',
-    time: '00:30',
-    league: '🇬🇷 Greece Super League',
-    leagueFlag: '🇬🇷',
-    home: 'Levadiakos',
-    away: 'Panathinaikos',
-    tag: 'Super League',
-    stadium: 'Levadia Stadium',
-    homeForm: ['L', 'L', 'D', 'L', 'L'],
-    awayForm: ['W', 'W', 'D', 'L', 'W'],
-    homeRank: 14,
-    awayRank: 1,
-    handicap: '3/4 : 0'
-  },
-
-  // CROATIA SUPERLIGA
-  {
-    id: 'm2',
-    date: '31/08',
-    time: '00:30',
-    league: '🇭🇷 Croatia Superliga',
-    leagueFlag: '🇭🇷',
-    home: 'Hajduk Split',
-    away: 'NK Lokomotiva Zagreb',
-    tag: 'Superliga',
-    stadium: 'Stadion Poljud',
-    homeForm: ['W', 'W', 'D', 'L', 'W'],
-    awayForm: ['L', 'D', 'W', 'L', 'D'],
-    homeRank: 2,
-    awayRank: 6,
-    handicap: '0 : 1 1/4'
-  },
-
-  // ITALY SERIE A
-  {
-    id: 'm3',
-    date: '31/08',
-    time: '00:30',
-    league: '🇮🇹 Serie A',
+    date: '01/09',
+    time: '00:00',
+    league: '🇮🇹 Coppa Italia',
     leagueFlag: '🇮🇹',
-    home: 'Lecce',
-    away: 'AS Roma',
-    tag: 'Serie A',
-    stadium: 'Stadio Via del Mare',
-    homeForm: ['D', 'L', 'W', 'D', 'L'],
-    awayForm: ['W', 'W', 'D', 'L', 'W'],
-    homeRank: 16,
-    awayRank: 5,
-    handicap: '1 : 0'
-  },
-
-  // DENMARK SUPER LEAGUE
-  {
-    id: 'm4',
-    date: '01/09',
-    time: '01:00',
-    league: '🇩🇰 Super League',
-    leagueFlag: '🇩🇰',
-    home: 'FC Copenhagen',
-    away: 'Sonderjyske',
-    tag: 'Super League',
-    stadium: 'Parken Stadium',
-    homeForm: ['W', 'W', 'W', 'D', 'W'],
-    awayForm: ['L', 'D', 'L', 'L', 'W'],
-    homeRank: 1,
-    awayRank: 12,
-    handicap: '0 : 1 1/2'
-  },
-
-  // SPAIN LA LIGA
-  {
-    id: 'm5',
-    date: '01/09',
-    time: '01:30',
-    league: '🇪🇸 La Liga',
-    leagueFlag: '🇪🇸',
-    home: 'CA Osasuna',
-    away: 'Getafe CF',
-    tag: 'La Liga',
-    stadium: 'Estadio El Sadar',
-    homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['D', 'L', 'W', 'D', 'L'],
-    homeRank: 9,
-    awayRank: 12,
+    home: 'Parma',
+    away: 'Cremonese',
+    tag: 'Coppa Italia',
+    stadium: 'Stadio Ennio Tardini',
+    homeForm: ['W', 'L', 'D', 'W', 'L'],
+    awayForm: ['D', 'W', 'L', 'D', 'W'],
+    homeRank: 0,
+    awayRank: 0,
     handicap: '0 : 1/4'
   },
 
-  // TURKIYE SUPER LEAGUE
+
+  // ==================== 2 SEPTEMBER 2026 ====================
+
+  // SWISS SUPER LEAGUE
   {
-    id: 'm6',
-    date: '01/09',
+    id: 'm2',
+    date: '02/09',
     time: '02:30',
-    league: '🇹🇷 Turkiye Super League',
-    leagueFlag: '🇹🇷',
-    home: 'Besiktas',
-    away: 'Corum FK',
+    league: '🇨🇭 Swiss Super League',
+    leagueFlag: '🇨🇭',
+    home: 'Zurich',
+    away: 'Young Boys',
     tag: 'Super League',
-    stadium: 'Vodafone Park',
-    homeForm: ['W', 'W', 'W', 'D', 'W'],
-    awayForm: ['L', 'L', 'D', 'L', 'L'],
-    homeRank: 1,
-    awayRank: 16,
-    handicap: '0 : 1 1/4'
-  },
-
-  // ITALY SERIE A
-  {
-    id: 'm7',
-    date: '01/09',
-    time: '02:45',
-    league: '🇮🇹 Serie A',
-    leagueFlag: '🇮🇹',
-    home: 'Atalanta',
-    away: 'Bologna',
-    tag: 'Serie A',
-    stadium: 'Gewiss Stadium',
-    homeForm: ['W', 'W', 'D', 'L', 'W'],
-    awayForm: ['W', 'D', 'L', 'W', 'D'],
-    homeRank: 6,
-    awayRank: 10,
-    handicap: '0 : 1/2'
-  },
-
-  // ENGLISH PREMIER LEAGUE
-  {
-    id: 'm8',
-    date: '01/09',
-    time: '03:00',
-    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
-    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-    home: 'Aston Villa',
-    away: 'Arsenal',
-    tag: 'Premier League',
-    stadium: 'Villa Park',
+    stadium: 'Letzigrund Stadion',
     homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['W', 'W', 'W', 'D', 'W'],
-    homeRank: 8,
-    awayRank: 2,
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 4,
+    awayRank: 1,
     handicap: '1 : 0'
   },
 
-  // LIGA PORTUGAL
+  // ENGLISH CHAMPIONSHIP
+  {
+    id: 'm3',
+    date: '02/09',
+    time: '02:45',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Lincoln City',
+    away: 'Blackburn Rovers',
+    tag: 'Championship',
+    stadium: 'LNER Stadium',
+    homeForm: ['W', 'D', 'L', 'W', 'D'],
+    awayForm: ['D', 'W', 'L', 'D', 'W'],
+    homeRank: 12,
+    awayRank: 8,
+    handicap: '0 : 1/4'
+  },
+  {
+    id: 'm4',
+    date: '02/09',
+    time: '02:45',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Portsmouth',
+    away: 'Derby County',
+    tag: 'Championship',
+    stadium: 'Fratton Park',
+    homeForm: ['W', 'L', 'D', 'W', 'L'],
+    awayForm: ['L', 'W', 'D', 'L', 'W'],
+    homeRank: 10,
+    awayRank: 11,
+    handicap: '0 : 1/4'
+  },
+  {
+    id: 'm5',
+    date: '02/09',
+    time: '02:45',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Preston North End',
+    away: 'Bristol City',
+    tag: 'Championship',
+    stadium: 'Deepdale',
+    homeForm: ['D', 'W', 'L', 'D', 'W'],
+    awayForm: ['L', 'D', 'W', 'L', 'D'],
+    homeRank: 15,
+    awayRank: 13,
+    handicap: '0 : 0'
+  },
+  {
+    id: 'm6',
+    date: '02/09',
+    time: '02:45',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Sheffield United',
+    away: 'Bolton Wanderers',
+    tag: 'Championship',
+    stadium: 'Bramall Lane',
+    homeForm: ['W', 'W', 'D', 'L', 'W'],
+    awayForm: ['L', 'D', 'W', 'L', 'D'],
+    homeRank: 3,
+    awayRank: 18,
+    handicap: '0 : 3/4'
+  },
+  {
+    id: 'm7',
+    date: '02/09',
+    time: '02:45',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Swansea City',
+    away: 'Watford',
+    tag: 'Championship',
+    stadium: 'Swansea.com Stadium',
+    homeForm: ['W', 'D', 'L', 'W', 'D'],
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 9,
+    awayRank: 5,
+    handicap: '0 : 1/2'
+  },
+  {
+    id: 'm8',
+    date: '02/09',
+    time: '02:45',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'West Ham United',
+    away: 'Wolverhampton Wanderers',
+    tag: 'Championship',
+    stadium: 'London Stadium',
+    homeForm: ['W', 'W', 'D', 'L', 'W'],
+    awayForm: ['W', 'L', 'D', 'W', 'L'],
+    homeRank: 1,
+    awayRank: 16,
+    handicap: '0 : 1/2'
+  },
   {
     id: 'm9',
-    date: '01/09',
-    time: '03:15',
-    league: '🇵🇹 Liga Portugal',
-    leagueFlag: '🇵🇹',
-    home: 'Benfica',
-    away: 'Estoril',
-    tag: 'Liga Portugal',
-    stadium: 'Estadio da Luz',
-    homeForm: ['W', 'W', 'W', 'W', 'D'],
-    awayForm: ['D', 'L', 'W', 'D', 'L'],
-    homeRank: 1,
-    awayRank: 12,
-    handicap: '0 : 2 1/4'
+    date: '02/09',
+    time: '03:00',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Birmingham City',
+    away: 'Southampton',
+    tag: 'Championship',
+    stadium: 'St Andrew\'s',
+    homeForm: ['W', 'W', 'D', 'L', 'W'],
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 4,
+    awayRank: 2,
+    handicap: '0 : 0'
   },
   {
     id: 'm10',
-    date: '01/09',
-    time: '03:15',
-    league: '🇵🇹 Liga Portugal',
-    leagueFlag: '🇵🇹',
-    home: 'Sporting Braga',
-    away: 'Vitoria Guimaraes',
-    tag: 'Liga Portugal',
-    stadium: 'Estadio Municipal',
-    homeForm: ['W', 'W', 'D', 'L', 'W'],
-    awayForm: ['W', 'D', 'L', 'W', 'D'],
-    homeRank: 4,
-    awayRank: 5,
-    handicap: '0 : 3/4'
+    date: '02/09',
+    time: '03:00',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Stoke City',
+    away: 'Norwich City',
+    tag: 'Championship',
+    stadium: 'Bet365 Stadium',
+    homeForm: ['W', 'D', 'L', 'W', 'D'],
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 7,
+    awayRank: 6,
+    handicap: '1/4 : 0'
   },
 
-  // SPAIN LA LIGA
+  // ITALY CUP
   {
     id: 'm11',
-    date: '01/09',
-    time: '03:30',
-    league: '🇪🇸 La Liga',
-    leagueFlag: '🇪🇸',
-    home: 'Barcelona',
-    away: 'Rayo Vallecano',
-    tag: 'La Liga',
-    stadium: 'Camp Nou',
-    homeForm: ['W', 'W', 'W', 'W', 'D'],
-    awayForm: ['W', 'D', 'L', 'W', 'D'],
-    homeRank: 1,
-    awayRank: 10,
-    handicap: '0 : 2 1/4'
-  },
-
-  // ARGENTINA LIGA PROFESIONAL
-  {
-    id: 'm12',
-    date: '01/09',
-    time: '06:00',
-    league: '🇦🇷 Argentina Liga Profesional',
-    leagueFlag: '🇦🇷',
-    home: 'Estudiantes La Plata',
-    away: 'Newells Old Boys',
-    tag: 'Liga Profesional',
-    stadium: 'Estadio Ciudad de La Plata',
-    homeForm: ['W', 'W', 'D', 'L', 'W'],
-    awayForm: ['L', 'D', 'W', 'L', 'D'],
-    homeRank: 4,
-    awayRank: 11,
-    handicap: '0 : 3/4'
-  },
-
-  // BRAZIL SERIE A
-  {
-    id: 'm13',
-    date: '01/09',
-    time: '07:00',
-    league: '🇧🇷 Brazil Serie A',
-    leagueFlag: '🇧🇷',
-    home: 'Remo PA',
-    away: 'Coritiba PR',
-    tag: 'Brazil Serie A',
-    stadium: 'Estadio Mangueirao',
+    date: '02/09',
+    time: '03:00',
+    league: '🇮🇹 Coppa Italia',
+    leagueFlag: '🇮🇹',
+    home: 'Torino',
+    away: 'Monza',
+    tag: 'Coppa Italia',
+    stadium: 'Stadio Olimpico Grande Torino',
     homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['L', 'D', 'W', 'L', 'D'],
-    homeRank: 8,
-    awayRank: 15,
-    handicap: '0 : 1/4'
-  },
-
-  // ARGENTINA LIGA PROFESIONAL
-  {
-    id: 'm14',
-    date: '01/09',
-    time: '08:15',
-    league: '🇦🇷 Argentina Liga Profesional',
-    leagueFlag: '🇦🇷',
-    home: 'Instituto',
-    away: 'San Lorenzo',
-    tag: 'Liga Profesional',
-    stadium: 'Estadio Juan Domingo Peron',
-    homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['D', 'L', 'W', 'D', 'L'],
-    homeRank: 9,
-    awayRank: 7,
+    awayForm: ['L', 'D', 'L', 'W', 'L'],
+    homeRank: 0,
+    awayRank: 0,
     handicap: '0 : 1/2'
   }
 ];
 
 export const PREDICTIONS_DATA: Prediction[] = [
-  // ==================== 31 AGUSTUS 2026 ====================
+  // ==================== 1 SEPTEMBER 2026 ====================
 
   {
     id: 'p1',
     matchId: 'm1',
-    league: '🇬🇷 Greece Super League',
-    home: 'Levadiakos',
-    away: 'Panathinaikos',
-    score: '0 - 2',
-    confidence: 'high',
-    confidencePct: 78,
-    homeProb: 10,
-    drawProb: 16,
-    awayProb: 74,
-    pick: 'AWAY',
-    pickLabel: 'Panathinaikos Win to Nil',
-    odds: 1.48,
+    league: '🇮🇹 Coppa Italia',
+    home: 'Parma',
+    away: 'Cremonese',
+    score: '1 - 1',
+    confidence: 'mid',
+    confidencePct: 54,
+    homeProb: 34,
+    drawProb: 36,
+    awayProb: 30,
+    pick: 'DRAW',
+    pickLabel: 'Draw / Under 2.5',
+    odds: 2.20,
     overUnder: 'Under 2.5',
-    btts: 'NO',
-    note: 'Panathinaikos adalah raja Greece Super League dengan skuad bintang.',
-    h2hSummary: 'Panathinaikos selalu menang telak di kandang lawan.',
-    keyPlayer: 'Fotis Ioannidis'
+    btts: 'YES',
+    note: 'Kedua tim berimbang di ajang Coppa Italia.',
+    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
+    keyPlayer: 'Dennis Man'
   },
+
+
+  // ==================== 2 SEPTEMBER 2026 ====================
+
   {
     id: 'p2',
     matchId: 'm2',
-    league: '🇭🇷 Croatia Superliga',
-    home: 'Hajduk Split',
-    away: 'NK Lokomotiva Zagreb',
+    league: '🇨🇭 Swiss Super League',
+    home: 'Zurich',
+    away: 'Young Boys',
+    score: '1 - 2',
+    confidence: 'high',
+    confidencePct: 72,
+    homeProb: 22,
+    drawProb: 24,
+    awayProb: 54,
+    pick: 'AWAY',
+    pickLabel: 'Young Boys Win',
+    odds: 1.62,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Young Boys adalah pemuncak klasemen Swiss Super League dengan skuad bintang.',
+    h2hSummary: 'Young Boys menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Jean-Pierre Nsame'
+  },
+  {
+    id: 'p3',
+    matchId: 'm3',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    home: 'Lincoln City',
+    away: 'Blackburn Rovers',
+    score: '1 - 1',
+    confidence: 'mid',
+    confidencePct: 54,
+    homeProb: 34,
+    drawProb: 36,
+    awayProb: 30,
+    pick: 'DRAW',
+    pickLabel: 'Draw / Under 2.5',
+    odds: 2.20,
+    overUnder: 'Under 2.5',
+    btts: 'YES',
+    note: 'Kedua tim berimbang di papan tengah Championship.',
+    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
+    keyPlayer: 'Jack Diamond'
+  },
+  {
+    id: 'p4',
+    matchId: 'm4',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    home: 'Portsmouth',
+    away: 'Derby County',
+    score: '1 - 1',
+    confidence: 'mid',
+    confidencePct: 52,
+    homeProb: 34,
+    drawProb: 36,
+    awayProb: 30,
+    pick: 'DRAW',
+    pickLabel: 'Draw / Under 2.5',
+    odds: 2.25,
+    overUnder: 'Under 2.5',
+    btts: 'YES',
+    note: 'Kedua tim berimbang di papan tengah Championship.',
+    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
+    keyPlayer: 'Colby Bishop'
+  },
+  {
+    id: 'p5',
+    matchId: 'm5',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    home: 'Preston North End',
+    away: 'Bristol City',
+    score: '1 - 1',
+    confidence: 'mid',
+    confidencePct: 52,
+    homeProb: 34,
+    drawProb: 36,
+    awayProb: 30,
+    pick: 'DRAW',
+    pickLabel: 'Draw / Under 2.5',
+    odds: 2.25,
+    overUnder: 'Under 2.5',
+    btts: 'YES',
+    note: 'Kedua tim berimbang di papan bawah Championship.',
+    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
+    keyPlayer: 'Emil Riis'
+  },
+  {
+    id: 'p6',
+    matchId: 'm6',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    home: 'Sheffield United',
+    away: 'Bolton Wanderers',
     score: '2 - 0',
     confidence: 'high',
     confidencePct: 72,
@@ -297,171 +322,20 @@ export const PREDICTIONS_DATA: Prediction[] = [
     drawProb: 18,
     awayProb: 14,
     pick: 'HOME',
-    pickLabel: 'Hajduk Split Win',
+    pickLabel: 'Sheffield United Win to Nil',
     odds: 1.68,
     overUnder: 'Under 2.5',
     btts: 'NO',
-    note: 'Hajduk Split adalah tim papan atas Croatia dengan skuad berkualitas.',
-    h2hSummary: 'Hajduk menang 3 dari 4 pertemuan terakhir.',
-    keyPlayer: 'Marko Livaja'
-  },
-  {
-    id: 'p3',
-    matchId: 'm3',
-    league: '🇮🇹 Serie A',
-    home: 'Lecce',
-    away: 'AS Roma',
-    score: '0 - 2',
-    confidence: 'high',
-    confidencePct: 76,
-    homeProb: 14,
-    drawProb: 18,
-    awayProb: 68,
-    pick: 'AWAY',
-    pickLabel: 'AS Roma Win',
-    odds: 1.58,
-    overUnder: 'Under 2.5',
-    btts: 'NO',
-    note: 'AS Roma adalah tim papan atas Serie A dengan skuad bintang.',
-    h2hSummary: 'Roma menang 4 dari 5 pertemuan terakhir.',
-    keyPlayer: 'Paulo Dybala'
-  },
-
-
-  // ==================== 1 SEPTEMBER 2026 ====================
-
-  {
-    id: 'p4',
-    matchId: 'm4',
-    league: '🇩🇰 Super League',
-    home: 'FC Copenhagen',
-    away: 'Sonderjyske',
-    score: '3 - 1',
-    confidence: 'high',
-    confidencePct: 78,
-    homeProb: 76,
-    drawProb: 14,
-    awayProb: 10,
-    pick: 'HOME',
-    pickLabel: 'Copenhagen Win & Over 2.5',
-    odds: 1.52,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'FC Copenhagen adalah raja Denmark dengan skuad bintang.',
-    h2hSummary: 'Copenhagen selalu menang telak di Parken.',
-    keyPlayer: 'Viktor Claesson'
-  },
-  {
-    id: 'p5',
-    matchId: 'm5',
-    league: '🇪🇸 La Liga',
-    home: 'CA Osasuna',
-    away: 'Getafe CF',
-    score: '1 - 0',
-    confidence: 'mid',
-    confidencePct: 56,
-    homeProb: 44,
-    drawProb: 32,
-    awayProb: 24,
-    pick: 'HOME',
-    pickLabel: 'Osasuna Win',
-    odds: 2.10,
-    overUnder: 'Under 2.5',
-    btts: 'NO',
-    note: 'Osasuna bermain di kandang dengan atmosfer El Sadar yang luar biasa.',
-    h2hSummary: 'Osasuna menang 2 dari 3 pertemuan terakhir.',
-    keyPlayer: 'Ante Budimir'
-  },
-  {
-    id: 'p6',
-    matchId: 'm6',
-    league: '🇹🇷 Turkiye Super League',
-    home: 'Besiktas',
-    away: 'Corum FK',
-    score: '2 - 0',
-    confidence: 'high',
-    confidencePct: 80,
-    homeProb: 78,
-    drawProb: 14,
-    awayProb: 8,
-    pick: 'HOME',
-    pickLabel: 'Besiktas Win to Nil',
-    odds: 1.45,
-    overUnder: 'Under 2.5',
-    btts: 'NO',
-    note: 'Besiktas adalah raja Turki dengan skuad bintang dan target juara.',
-    h2hSummary: 'Besiktas selalu menang telak di Vodafone Park.',
-    keyPlayer: 'Cenk Tosun'
+    note: 'Sheffield United adalah tim papan atas Championship dan target promosi.',
+    h2hSummary: 'Sheffield United menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Oliver McBurnie'
   },
   {
     id: 'p7',
     matchId: 'm7',
-    league: '🇮🇹 Serie A',
-    home: 'Atalanta',
-    away: 'Bologna',
-    score: '2 - 1',
-    confidence: 'mid',
-    confidencePct: 62,
-    homeProb: 48,
-    drawProb: 26,
-    awayProb: 26,
-    pick: 'HOME',
-    pickLabel: 'Atalanta Win',
-    odds: 1.92,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'Atalanta bermain di kandang dengan serangan mematikan.',
-    h2hSummary: 'Atalanta menang 2 dari 3 pertemuan terakhir.',
-    keyPlayer: 'Ademola Lookman'
-  },
-  {
-    id: 'p8',
-    matchId: 'm8',
-    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
-    home: 'Aston Villa',
-    away: 'Arsenal',
-    score: '1 - 2',
-    confidence: 'high',
-    confidencePct: 72,
-    homeProb: 24,
-    drawProb: 24,
-    awayProb: 52,
-    pick: 'AWAY',
-    pickLabel: 'Arsenal Win',
-    odds: 1.62,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'Arsenal memiliki skuad bintang dan target juara Premier League.',
-    h2hSummary: 'Arsenal menang 3 dari 4 pertemuan terakhir.',
-    keyPlayer: 'Bukayo Saka'
-  },
-  {
-    id: 'p9',
-    matchId: 'm9',
-    league: '🇵🇹 Liga Portugal',
-    home: 'Benfica',
-    away: 'Estoril',
-    score: '3 - 0',
-    confidence: 'high',
-    confidencePct: 84,
-    homeProb: 82,
-    drawProb: 12,
-    awayProb: 6,
-    pick: 'HOME',
-    pickLabel: 'Benfica Win to Nil',
-    odds: 1.40,
-    overUnder: 'Over 2.5',
-    btts: 'NO',
-    note: 'Benfica adalah raja Portugal dengan skuad bintang.',
-    h2hSummary: 'Benfica selalu menang telak di Estadio da Luz.',
-    keyPlayer: 'Angel Di Maria'
-  },
-  {
-    id: 'p10',
-    matchId: 'm10',
-    league: '🇵🇹 Liga Portugal',
-    home: 'Sporting Braga',
-    away: 'Vitoria Guimaraes',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    home: 'Swansea City',
+    away: 'Watford',
     score: '2 - 1',
     confidence: 'mid',
     confidencePct: 60,
@@ -469,97 +343,97 @@ export const PREDICTIONS_DATA: Prediction[] = [
     drawProb: 28,
     awayProb: 26,
     pick: 'HOME',
-    pickLabel: 'Braga Win',
+    pickLabel: 'Swansea City Win',
     odds: 1.95,
     overUnder: 'Over 2.5',
     btts: 'YES',
-    note: 'Sporting Braga bermain di kandang dengan performa konsisten.',
-    h2hSummary: 'Braga menang 2 dari 3 pertemuan terakhir.',
-    keyPlayer: 'Ricardo Horta'
+    note: 'Swansea City bermain di kandang dengan performa konsisten.',
+    h2hSummary: 'Swansea menang 2 dari 3 pertemuan terakhir.',
+    keyPlayer: 'Jamie Paterson'
   },
   {
-    id: 'p11',
-    matchId: 'm11',
-    league: '🇪🇸 La Liga',
-    home: 'Barcelona',
-    away: 'Rayo Vallecano',
-    score: '3 - 1',
-    confidence: 'high',
-    confidencePct: 82,
-    homeProb: 80,
-    drawProb: 12,
-    awayProb: 8,
-    pick: 'HOME',
-    pickLabel: 'Barcelona Win & Over 2.5',
-    odds: 1.42,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'Barcelona adalah raja Spanyol dengan skuad bintang dan target juara La Liga.',
-    h2hSummary: 'Barcelona selalu menang telak di Camp Nou.',
-    keyPlayer: 'Robert Lewandowski'
-  },
-  {
-    id: 'p12',
-    matchId: 'm12',
-    league: '🇦🇷 Argentina Liga Profesional',
-    home: 'Estudiantes La Plata',
-    away: 'Newells Old Boys',
-    score: '2 - 0',
+    id: 'p8',
+    matchId: 'm8',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    home: 'West Ham United',
+    away: 'Wolverhampton Wanderers',
+    score: '2 - 1',
     confidence: 'high',
     confidencePct: 70,
     homeProb: 66,
     drawProb: 20,
     awayProb: 14,
     pick: 'HOME',
-    pickLabel: 'Estudiantes Win',
+    pickLabel: 'West Ham United Win',
+    odds: 1.68,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'West Ham adalah pemuncak klasemen Championship dengan skuad bintang.',
+    h2hSummary: 'West Ham menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Jarrod Bowen'
+  },
+  {
+    id: 'p9',
+    matchId: 'm9',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    home: 'Birmingham City',
+    away: 'Southampton',
+    score: '1 - 1',
+    confidence: 'mid',
+    confidencePct: 54,
+    homeProb: 34,
+    drawProb: 36,
+    awayProb: 30,
+    pick: 'DRAW',
+    pickLabel: 'Draw / Under 2.5',
+    odds: 2.20,
+    overUnder: 'Under 2.5',
+    btts: 'YES',
+    note: 'Laga sengit antara dua tim papan atas Championship.',
+    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
+    keyPlayer: 'Scott Hogan'
+  },
+  {
+    id: 'p10',
+    matchId: 'm10',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
+    home: 'Stoke City',
+    away: 'Norwich City',
+    score: '1 - 0',
+    confidence: 'mid',
+    confidencePct: 56,
+    homeProb: 44,
+    drawProb: 32,
+    awayProb: 24,
+    pick: 'HOME',
+    pickLabel: 'Stoke City Win',
+    odds: 2.10,
+    overUnder: 'Under 2.5',
+    btts: 'NO',
+    note: 'Stoke City bermain di kandang dengan pertahanan solid.',
+    h2hSummary: 'Stoke menang 2 dari 3 pertemuan terakhir.',
+    keyPlayer: 'Tyrese Campbell'
+  },
+  {
+    id: 'p11',
+    matchId: 'm11',
+    league: '🇮🇹 Coppa Italia',
+    home: 'Torino',
+    away: 'Monza',
+    score: '2 - 0',
+    confidence: 'high',
+    confidencePct: 72,
+    homeProb: 68,
+    drawProb: 18,
+    awayProb: 14,
+    pick: 'HOME',
+    pickLabel: 'Torino Win to Nil',
     odds: 1.68,
     overUnder: 'Under 2.5',
     btts: 'NO',
-    note: 'Estudiantes La Plata adalah tim kuat Argentina dengan skuad berkualitas.',
-    h2hSummary: 'Estudiantes menang 3 dari 4 pertemuan terakhir.',
-    keyPlayer: 'Mauro Mendez'
-  },
-  {
-    id: 'p13',
-    matchId: 'm13',
-    league: '🇧🇷 Brazil Serie A',
-    home: 'Remo PA',
-    away: 'Coritiba PR',
-    score: '1 - 1',
-    confidence: 'mid',
-    confidencePct: 54,
-    homeProb: 34,
-    drawProb: 36,
-    awayProb: 30,
-    pick: 'DRAW',
-    pickLabel: 'Draw / Under 2.5',
-    odds: 2.20,
-    overUnder: 'Under 2.5',
-    btts: 'YES',
-    note: 'Kedua tim berimbang di papan tengah Brazil Serie A.',
-    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
-    keyPlayer: 'Yuri Alberto'
-  },
-  {
-    id: 'p14',
-    matchId: 'm14',
-    league: '🇦🇷 Argentina Liga Profesional',
-    home: 'Instituto',
-    away: 'San Lorenzo',
-    score: '1 - 1',
-    confidence: 'mid',
-    confidencePct: 54,
-    homeProb: 34,
-    drawProb: 36,
-    awayProb: 30,
-    pick: 'DRAW',
-    pickLabel: 'Draw / Under 2.5',
-    odds: 2.20,
-    overUnder: 'Under 2.5',
-    btts: 'YES',
-    note: 'Kedua tim berimbang di papan tengah Liga Profesional.',
-    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
-    keyPlayer: 'Nahuel Barrios'
+    note: 'Torino adalah tim Serie A dengan skuad berkualitas, Monza tim papan bawah.',
+    h2hSummary: 'Torino menang 2 dari 3 pertemuan terakhir.',
+    keyPlayer: 'Antonio Sanabria'
   }
 ];
 
@@ -573,22 +447,22 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Aman',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm11')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
-        odds: 1.42,
-        pick: 'Barcelona Menang'
-      },
-      {
-        match: MATCHES_DATA.find(m => m.id === 'm9')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm9')!,
-        odds: 1.40,
-        pick: 'Benfica Menang'
-      },
-      {
         match: MATCHES_DATA.find(m => m.id === 'm6')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
-        odds: 1.45,
-        pick: 'Besiktas Menang'
+        odds: 1.68,
+        pick: 'Sheffield United Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm8')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
+        odds: 1.68,
+        pick: 'West Ham United Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm11')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
+        odds: 1.68,
+        pick: 'Torino Menang'
       }
     ]
   },
@@ -601,50 +475,50 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm8')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
+        match: MATCHES_DATA.find(m => m.id === 'm2')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm2')!,
         odds: 1.62,
-        pick: 'Arsenal Menang'
+        pick: 'Young Boys Menang'
       },
       {
         match: MATCHES_DATA.find(m => m.id === 'm7')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm7')!,
-        odds: 1.92,
-        pick: 'Atalanta Menang'
+        odds: 1.95,
+        pick: 'Swansea City Menang'
       },
       {
         match: MATCHES_DATA.find(m => m.id === 'm10')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm10')!,
-        odds: 1.95,
-        pick: 'Braga Menang'
+        odds: 2.10,
+        pick: 'Stoke City Menang'
       }
     ]
   },
   {
     id: 'pkg-3',
-    title: '🔥 PARLAY HOT (3-TIM) - 1 SEPTEMBER',
+    title: '🔥 PARLAY HOT (3-TIM) - 2 SEPTEMBER',
     source: 'Rekomendasi KAPSUL4D Special',
     badge: 'Hot Pick',
     totalOdds: 4.50,
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm4')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm4')!,
-        odds: 1.52,
-        pick: 'Copenhagen Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm6')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
+        odds: 1.68,
+        pick: 'Sheffield United Menang'
       },
       {
         match: MATCHES_DATA.find(m => m.id === 'm8')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
-        odds: 1.62,
-        pick: 'Arsenal Menang'
+        odds: 1.68,
+        pick: 'West Ham United Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm11')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
-        odds: 1.42,
-        pick: 'Barcelona Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm10')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm10')!,
+        odds: 2.10,
+        pick: 'Stoke City Menang'
       }
     ]
   },
@@ -657,84 +531,84 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Tinggi (Jackpot)',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm4')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm4')!,
-        odds: 1.52,
-        pick: 'Copenhagen Menang'
-      },
-      {
-        match: MATCHES_DATA.find(m => m.id === 'm9')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm9')!,
-        odds: 1.40,
-        pick: 'Benfica Menang'
-      },
-      {
-        match: MATCHES_DATA.find(m => m.id === 'm11')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
-        odds: 1.42,
-        pick: 'Barcelona Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm2')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm2')!,
+        odds: 1.62,
+        pick: 'Young Boys Menang'
       },
       {
         match: MATCHES_DATA.find(m => m.id === 'm6')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
-        odds: 1.45,
-        pick: 'Besiktas Menang'
+        odds: 1.68,
+        pick: 'Sheffield United Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm8')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
+        odds: 1.68,
+        pick: 'West Ham United Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm11')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
+        odds: 1.68,
+        pick: 'Torino Menang'
       }
     ]
   },
   {
     id: 'pkg-5',
-    title: '🇪🇸🇵🇹 LA LIGA & LIGA PORTUGAL COMBO (3-TIM)',
-    source: 'Rekomendasi Liga Spanyol & Portugal',
+    title: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 CHAMPIONSHIP COMBO (3-TIM)',
+    source: 'Rekomendasi Liga Championship',
     badge: 'Odds @5.50x',
     totalOdds: 5.50,
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm5')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm5')!,
-        odds: 2.10,
-        pick: 'Osasuna Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm6')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
+        odds: 1.68,
+        pick: 'Sheffield United Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm9')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm9')!,
-        odds: 1.40,
-        pick: 'Benfica Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm7')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm7')!,
+        odds: 1.95,
+        pick: 'Swansea City Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm11')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
-        odds: 1.42,
-        pick: 'Barcelona Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm8')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
+        odds: 1.68,
+        pick: 'West Ham United Menang'
       }
     ]
   },
   {
     id: 'pkg-6',
-    title: '🇮🇹🇦🇷🇧🇷 SERIE A & AMERICA COMBO (3-TIM)',
-    source: 'Rekomendasi Liga Italia & Amerika',
+    title: '🇮🇹🇨🇭 ITALY CUP & SWISS COMBO (3-TIM)',
+    source: 'Rekomendasi Liga Italia & Swiss',
     badge: 'Odds @5.25x',
     totalOdds: 5.25,
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm3')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm3')!,
-        odds: 1.58,
-        pick: 'AS Roma Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm1')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm1')!,
+        odds: 2.20,
+        pick: 'Draw Parma vs Cremonese'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm12')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm12')!,
+        match: MATCHES_DATA.find(m => m.id === 'm2')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm2')!,
+        odds: 1.62,
+        pick: 'Young Boys Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm11')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
         odds: 1.68,
-        pick: 'Estudiantes La Plata Menang'
-      },
-      {
-        match: MATCHES_DATA.find(m => m.id === 'm7')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm7')!,
-        odds: 1.92,
-        pick: 'Atalanta Menang'
+        pick: 'Torino Menang'
       }
     ]
   }
@@ -798,7 +672,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     city: 'Semarang',
     type: 'win',
     amount: 14200000,
-    text: 'Prediksi Barcelona & Benfica kemarin tembus semua! Saya pasang single bet combo menang 14.2jt. Web ini informasinya paling update & akurat! 🏅',
+    text: 'Prediksi Sheffield United & West Ham kemarin tembus semua! Saya pasang single bet combo menang 14.2jt. Web ini informasinya paling update & akurat! 🏅',
     stars: 5,
     time: '2 jam lalu',
     avatarColor: 'pink',
@@ -850,7 +724,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     city: 'Surabaya',
     type: 'win',
     amount: 8200000,
-    text: 'Ikutin prediksi Arsenal & Besiktas kemarin, 2 single bet masuk semua! WD 8.2jt langsung cair. Terima kasih KAPSUL4D! ✅',
+    text: 'Ikutin prediksi West Ham & Torino kemarin, 2 single bet masuk semua! WD 8.2jt langsung cair. Terima kasih KAPSUL4D! ✅',
     stars: 5,
     time: '8 jam lalu',
     avatarColor: 'purple',
@@ -914,7 +788,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     city: 'Bandung',
     type: 'win',
     amount: 5600000,
-    text: 'Prediksi Barcelona & Copenhagen kemarin masuk semua. Modal 500rb jadi 5.6jt. Makasih KAPSUL4D selalu kasih prediksi akurat! 🏅',
+    text: 'Prediksi Sheffield United & Torino kemarin masuk semua. Modal 500rb jadi 5.6jt. Makasih KAPSUL4D selalu kasih prediksi akurat! 🏅',
     stars: 5,
     time: '1 hari lalu',
     avatarColor: 'pink',
