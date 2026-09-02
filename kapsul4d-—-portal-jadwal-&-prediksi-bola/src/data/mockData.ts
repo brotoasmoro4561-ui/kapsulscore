@@ -67,7 +67,7 @@ export const MATCHES_DATA: Match[] = [
     home: 'Mito Hollyhock',
     away: 'Kashima Antlers',
     tag: 'J1 League',
-    stadium: 'K's denki Stadium Mito',
+    stadium: 'K\'s denki Stadium Mito',
     homeForm: ['L', 'D', 'W', 'L', 'D'],
     awayForm: ['W', 'W', 'D', 'L', 'W'],
     homeRank: 15,
@@ -157,27 +157,9 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 0'
   },
 
-  // RUSSIA CUP
-  {
-    id: 'm10',
-    date: '02/09',
-    time: '21:00',
-    league: '🇷🇺 Russia Cup',
-    leagueFlag: '🇷🇺',
-    home: 'Sassuolo',
-    away: 'Frosinone',
-    tag: 'Coppa Italia',
-    stadium: 'MAPEI Stadium',
-    homeForm: ['W', 'L', 'D', 'W', 'L'],
-    awayForm: ['D', 'L', 'W', 'D', 'L'],
-    homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/2'
-  },
-
   // ITALY CUP
   {
-    id: 'm11',
+    id: 'm10',
     date: '02/09',
     time: '21:00',
     league: '🇮🇹 Coppa Italia',
@@ -195,7 +177,7 @@ export const MATCHES_DATA: Match[] = [
 
   // RUSSIA CUP
   {
-    id: 'm12',
+    id: 'm11',
     date: '02/09',
     time: '21:15',
     league: '🇷🇺 Russia Cup',
@@ -213,7 +195,7 @@ export const MATCHES_DATA: Match[] = [
 
   // TURKIYE 1ST LIG
   {
-    id: 'm13',
+    id: 'm12',
     date: '02/09',
     time: '22:00',
     league: '🇹🇷 Turkiye 1st Lig',
@@ -231,7 +213,7 @@ export const MATCHES_DATA: Match[] = [
 
   // EGYPT PREMIER LEAGUE
   {
-    id: 'm14',
+    id: 'm13',
     date: '02/09',
     time: '22:00',
     league: '🇪🇬 Egypt Premier League',
@@ -249,7 +231,7 @@ export const MATCHES_DATA: Match[] = [
 
   // RUSSIA CUP
   {
-    id: 'm15',
+    id: 'm14',
     date: '02/09',
     time: '23:30',
     league: '🇷🇺 Russia Cup',
@@ -270,7 +252,7 @@ export const MATCHES_DATA: Match[] = [
 
   // ITALY CUP
   {
-    id: 'm16',
+    id: 'm15',
     date: '03/09',
     time: '00:00',
     league: '🇮🇹 Coppa Italia',
@@ -288,7 +270,7 @@ export const MATCHES_DATA: Match[] = [
 
   // CZECHIA FIRST LEAGUE
   {
-    id: 'm17',
+    id: 'm16',
     date: '03/09',
     time: '00:00',
     league: '🇨🇿 Czechia First League',
@@ -306,7 +288,7 @@ export const MATCHES_DATA: Match[] = [
 
   // AUSTRIA BUNDESLIGA
   {
-    id: 'm18',
+    id: 'm17',
     date: '03/09',
     time: '00:30',
     league: '🇦🇹 Austria Bundesliga',
@@ -324,7 +306,7 @@ export const MATCHES_DATA: Match[] = [
 
   // EGYPT PREMIER LEAGUE
   {
-    id: 'm19',
+    id: 'm18',
     date: '03/09',
     time: '01:00',
     league: '🇪🇬 Egypt Premier League',
@@ -340,7 +322,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/4'
   },
   {
-    id: 'm20',
+    id: 'm19',
     date: '03/09',
     time: '01:00',
     league: '🇪🇬 Egypt Premier League',
@@ -356,9 +338,9 @@ export const MATCHES_DATA: Match[] = [
     handicap: '1/4 : 0'
   },
 
-  // BULGARIA FIRST PROFESSIONAL FOOTBALL LEAGUE
+  // BULGARIA FIRST LEAGUE
   {
-    id: 'm21',
+    id: 'm20',
     date: '03/09',
     time: '01:00',
     league: '🇧🇬 Bulgaria First League',
@@ -376,7 +358,7 @@ export const MATCHES_DATA: Match[] = [
 
   // TURKIYE 1ST LIG
   {
-    id: 'm22',
+    id: 'm21',
     date: '03/09',
     time: '01:00',
     league: '🇹🇷 Turkiye 1st Lig',
@@ -392,7 +374,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/2'
   },
   {
-    id: 'm23',
+    id: 'm22',
     date: '03/09',
     time: '01:00',
     league: '🇹🇷 Turkiye 1st Lig',
@@ -410,7 +392,7 @@ export const MATCHES_DATA: Match[] = [
 
   // RUSSIA CUP
   {
-    id: 'm24',
+    id: 'm23',
     date: '03/09',
     time: '01:45',
     league: '🇷🇺 Russia Cup',
@@ -426,7 +408,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/2'
   },
   {
-    id: 'm25',
+    id: 'm24',
     date: '03/09',
     time: '01:45',
     league: '🇷🇺 Russia Cup',
@@ -444,7 +426,7 @@ export const MATCHES_DATA: Match[] = [
 
   // DENMARK SUPER LEAGUE
   {
-    id: 'm26',
+    id: 'm25',
     date: '03/09',
     time: '02:00',
     league: '🇩🇰 Super League',
@@ -462,7 +444,7 @@ export const MATCHES_DATA: Match[] = [
 
   // CZECHIA FIRST LEAGUE
   {
-    id: 'm27',
+    id: 'm26',
     date: '03/09',
     time: '02:00',
     league: '🇨🇿 Czechia First League',
@@ -480,7 +462,7 @@ export const MATCHES_DATA: Match[] = [
 
   // SWISS SUPER LEAGUE
   {
-    id: 'm28',
+    id: 'm27',
     date: '03/09',
     time: '02:30',
     league: '🇨🇭 Swiss Super League',
@@ -496,7 +478,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1'
   },
   {
-    id: 'm29',
+    id: 'm28',
     date: '03/09',
     time: '02:30',
     league: '🇨🇭 Swiss Super League',
@@ -512,7 +494,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/4'
   },
   {
-    id: 'm30',
+    id: 'm29',
     date: '03/09',
     time: '02:30',
     league: '🇨🇭 Swiss Super League',
@@ -530,7 +512,7 @@ export const MATCHES_DATA: Match[] = [
 
   // BELGIUM FIRST DIVISION A
   {
-    id: 'm31',
+    id: 'm30',
     date: '03/09',
     time: '02:30',
     league: '🇧🇪 Belgium First Division A',
@@ -548,7 +530,7 @@ export const MATCHES_DATA: Match[] = [
 
   // AUSTRIA BUNDESLIGA
   {
-    id: 'm32',
+    id: 'm31',
     date: '03/09',
     time: '02:30',
     league: '🇦🇹 Austria Bundesliga',
@@ -566,7 +548,7 @@ export const MATCHES_DATA: Match[] = [
 
   // ENGLISH CHAMPIONSHIP
   {
-    id: 'm33',
+    id: 'm32',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
@@ -582,7 +564,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/4'
   },
   {
-    id: 'm34',
+    id: 'm33',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
@@ -598,7 +580,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/2'
   },
   {
-    id: 'm35',
+    id: 'm34',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
@@ -616,7 +598,7 @@ export const MATCHES_DATA: Match[] = [
 
   // SCOTLAND PREMIERSHIP
   {
-    id: 'm36',
+    id: 'm35',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Premiership',
@@ -632,7 +614,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/2'
   },
   {
-    id: 'm37',
+    id: 'm36',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Premiership',
@@ -648,7 +630,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '1/4 : 0'
   },
   {
-    id: 'm38',
+    id: 'm37',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Premiership',
@@ -666,7 +648,7 @@ export const MATCHES_DATA: Match[] = [
 
   // ENGLISH LEAGUE ONE
   {
-    id: 'm39',
+    id: 'm38',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
@@ -682,7 +664,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/4'
   },
   {
-    id: 'm40',
+    id: 'm39',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
@@ -698,7 +680,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/2'
   },
   {
-    id: 'm41',
+    id: 'm40',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
@@ -714,7 +696,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/4'
   },
   {
-    id: 'm42',
+    id: 'm41',
     date: '03/09',
     time: '02:45',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
@@ -732,7 +714,7 @@ export const MATCHES_DATA: Match[] = [
 
   // ENGLISH CHAMPIONSHIP
   {
-    id: 'm43',
+    id: 'm42',
     date: '03/09',
     time: '03:00',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
@@ -750,7 +732,7 @@ export const MATCHES_DATA: Match[] = [
 
   // SCOTLAND PREMIERSHIP
   {
-    id: 'm44',
+    id: 'm43',
     date: '03/09',
     time: '03:00',
     league: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Premiership',
@@ -766,27 +748,9 @@ export const MATCHES_DATA: Match[] = [
     handicap: '1 : 0'
   },
 
-  // ENGLISH LEAGUE ONE
-  {
-    id: 'm45',
-    date: '03/09',
-    time: '03:00',
-    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
-    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-    home: 'Reading',
-    away: 'Mansfield Town',
-    tag: 'League One',
-    stadium: 'Madejski Stadium',
-    homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['L', 'W', 'D', 'L', 'W'],
-    homeRank: 0,
-    awayRank: 0,
-    handicap: '0 : 1/4'
-  },
-
   // ECUADOR LIGA PRO SERIE A
   {
-    id: 'm46',
+    id: 'm44',
     date: '03/09',
     time: '03:00',
     league: '🇪🇨 Ecuador Liga Pro Serie A',
@@ -804,7 +768,7 @@ export const MATCHES_DATA: Match[] = [
 
   // ECUADOR LIGA PRO SERIE A
   {
-    id: 'm47',
+    id: 'm45',
     date: '03/09',
     time: '05:30',
     league: '🇪🇨 Ecuador Liga Pro Serie A',
@@ -822,7 +786,7 @@ export const MATCHES_DATA: Match[] = [
 
   // BRAZIL SERIE A
   {
-    id: 'm48',
+    id: 'm46',
     date: '03/09',
     time: '06:30',
     league: '🇧🇷 Brazil Serie A',
@@ -840,7 +804,7 @@ export const MATCHES_DATA: Match[] = [
 
   // ARGENTINA PRIMERA NACIONAL
   {
-    id: 'm49',
+    id: 'm47',
     date: '03/09',
     time: '07:00',
     league: '🇦🇷 Argentina Primera Nacional',
@@ -858,7 +822,7 @@ export const MATCHES_DATA: Match[] = [
 
   // USL CHAMPIONSHIP
   {
-    id: 'm50',
+    id: 'm48',
     date: '03/09',
     time: '07:00',
     league: '🇺🇸 USL Championship',
@@ -874,9 +838,27 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1'
   },
 
+  // ECUADOR LIGA PRO SERIE A
+  {
+    id: 'm49',
+    date: '03/09',
+    time: '08:00',
+    league: '🇪🇨 Ecuador Liga Pro Serie A',
+    leagueFlag: '🇪🇨',
+    home: 'Barcelona SC',
+    away: 'Independiente del Valle',
+    tag: 'Liga Pro Serie A',
+    stadium: 'Estadio Monumental',
+    homeForm: ['W', 'W', 'D', 'L', 'W'],
+    awayForm: ['W', 'W', 'W', 'D', 'W'],
+    homeRank: 0,
+    awayRank: 0,
+    handicap: '1/4 : 0'
+  },
+
   // ARGENTINA CUP
   {
-    id: 'm51',
+    id: 'm50',
     date: '03/09',
     time: '08:15',
     league: '🇦🇷 Argentina Cup',
@@ -894,7 +876,7 @@ export const MATCHES_DATA: Match[] = [
 
   // BRAZIL CUP
   {
-    id: 'm52',
+    id: 'm51',
     date: '03/09',
     time: '08:30',
     league: '🇧🇷 Brazil Cup',
@@ -910,7 +892,7 @@ export const MATCHES_DATA: Match[] = [
     handicap: '1/4 : 0'
   },
   {
-    id: 'm53',
+    id: 'm52',
     date: '03/09',
     time: '08:30',
     league: '🇧🇷 Brazil Cup',
@@ -926,27 +908,9 @@ export const MATCHES_DATA: Match[] = [
     handicap: '0 : 1/4'
   },
 
-  // ECUADOR LIGA PRO SERIE A
-  {
-    id: 'm54',
-    date: '03/09',
-    time: '08:00',
-    league: '🇪🇨 Ecuador Liga Pro Serie A',
-    leagueFlag: '🇪🇨',
-    home: 'Barcelona SC',
-    away: 'Independiente del Valle',
-    tag: 'Liga Pro Serie A',
-    stadium: 'Estadio Monumental',
-    homeForm: ['W', 'W', 'D', 'L', 'W'],
-    awayForm: ['W', 'W', 'W', 'D', 'W'],
-    homeRank: 0,
-    awayRank: 0,
-    handicap: '1/4 : 0'
-  },
-
   // LEAGUES CUP
   {
-    id: 'm55',
+    id: 'm53',
     date: '03/09',
     time: '09:00',
     league: '🌎 Leagues Cup',
@@ -964,7 +928,7 @@ export const MATCHES_DATA: Match[] = [
 
   // COLOMBIA PRIMERA A
   {
-    id: 'm56',
+    id: 'm54',
     date: '03/09',
     time: '09:25',
     league: '🇨🇴 Colombia Primera A',
@@ -982,7 +946,7 @@ export const MATCHES_DATA: Match[] = [
 
   // LEAGUES CUP
   {
-    id: 'm57',
+    id: 'm55',
     date: '03/09',
     time: '11:30',
     league: '🌎 Leagues Cup',
@@ -1193,7 +1157,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p10',
-    matchId: 'm11',
+    matchId: 'm10',
     league: '🇮🇹 Coppa Italia',
     home: 'Sassuolo',
     away: 'Frosinone',
@@ -1214,7 +1178,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p11',
-    matchId: 'm12',
+    matchId: 'm11',
     league: '🇷🇺 Russia Cup',
     home: 'FC Orenburg',
     away: 'Rubin Kazan',
@@ -1235,7 +1199,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p12',
-    matchId: 'm13',
+    matchId: 'm12',
     league: '🇹🇷 Turkiye 1st Lig',
     home: 'Van Spor FK',
     away: 'Batman Petrolspor',
@@ -1256,7 +1220,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p13',
-    matchId: 'm14',
+    matchId: 'm13',
     league: '🇪🇬 Egypt Premier League',
     home: 'El Gouna',
     away: 'Arab Contractors',
@@ -1277,7 +1241,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p14',
-    matchId: 'm15',
+    matchId: 'm14',
     league: '🇷🇺 Russia Cup',
     home: 'Zenit St. Petersburg',
     away: 'Dynamo Makhachkala',
@@ -1302,7 +1266,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
 
   {
     id: 'p15',
-    matchId: 'm16',
+    matchId: 'm15',
     league: '🇮🇹 Coppa Italia',
     home: 'Udinese',
     away: 'Venezia',
@@ -1323,7 +1287,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p16',
-    matchId: 'm17',
+    matchId: 'm16',
     league: '🇨🇿 Czechia First League',
     home: 'FC Zbrojovka Brno',
     away: 'Hradec Kralove',
@@ -1344,7 +1308,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p17',
-    matchId: 'm18',
+    matchId: 'm17',
     league: '🇦🇹 Austria Bundesliga',
     home: 'Austria Wien',
     away: 'WSG Tirol',
@@ -1365,7 +1329,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p18',
-    matchId: 'm19',
+    matchId: 'm18',
     league: '🇪🇬 Egypt Premier League',
     home: 'Ceramica Cleopatra FC',
     away: 'Modern Sport FC',
@@ -1386,7 +1350,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p19',
-    matchId: 'm20',
+    matchId: 'm19',
     league: '🇪🇬 Egypt Premier League',
     home: 'Abu Qir Fertilizers SC',
     away: 'Al Ittihad Alexandria',
@@ -1407,7 +1371,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p20',
-    matchId: 'm21',
+    matchId: 'm20',
     league: '🇧🇬 Bulgaria First League',
     home: 'Slavia Sofia',
     away: 'Levski Sofia',
@@ -1428,7 +1392,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p21',
-    matchId: 'm22',
+    matchId: 'm21',
     league: '🇹🇷 Turkiye 1st Lig',
     home: 'Sivasspor',
     away: 'Mardin 1969 Spor',
@@ -1449,7 +1413,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p22',
-    matchId: 'm23',
+    matchId: 'm22',
     league: '🇹🇷 Turkiye 1st Lig',
     home: 'Fatih Karagumruk',
     away: 'Kayserispor',
@@ -1470,7 +1434,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p23',
-    matchId: 'm24',
+    matchId: 'm23',
     league: '🇷🇺 Russia Cup',
     home: 'Baltika Kaliningrad',
     away: 'PFC Krylia Sovetov',
@@ -1491,7 +1455,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p24',
-    matchId: 'm25',
+    matchId: 'm24',
     league: '🇷🇺 Russia Cup',
     home: 'Spartak Moscow',
     away: 'Rodina Moscow',
@@ -1512,7 +1476,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p25',
-    matchId: 'm26',
+    matchId: 'm25',
     league: '🇩🇰 Super League',
     home: 'AGF Aarhus',
     away: 'Midtjylland',
@@ -1533,7 +1497,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p26',
-    matchId: 'm27',
+    matchId: 'm26',
     league: '🇨🇿 Czechia First League',
     home: 'Bohemians 1905',
     away: 'FK Jablonec',
@@ -1554,7 +1518,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p27',
-    matchId: 'm28',
+    matchId: 'm27',
     league: '🇨🇭 Swiss Super League',
     home: 'Luzern',
     away: 'Vaduz',
@@ -1575,7 +1539,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p28',
-    matchId: 'm29',
+    matchId: 'm28',
     league: '🇨🇭 Swiss Super League',
     home: 'Thun',
     away: 'Lausanne-Sport',
@@ -1596,7 +1560,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p29',
-    matchId: 'm30',
+    matchId: 'm29',
     league: '🇨🇭 Swiss Super League',
     home: 'Grasshopper',
     away: 'St. Gallen',
@@ -1617,7 +1581,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p30',
-    matchId: 'm31',
+    matchId: 'm30',
     league: '🇧🇪 Belgium First Division A',
     home: 'Sint Truidense',
     away: 'Union Saint-Gilloise',
@@ -1638,7 +1602,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p31',
-    matchId: 'm32',
+    matchId: 'm31',
     league: '🇦🇹 Austria Bundesliga',
     home: 'Red Bull Salzburg',
     away: 'Rapid Wien',
@@ -1659,7 +1623,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p32',
-    matchId: 'm33',
+    matchId: 'm32',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
     home: 'Millwall',
     away: 'Wrexham',
@@ -1680,7 +1644,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p33',
-    matchId: 'm34',
+    matchId: 'm33',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
     home: 'Queens Park Rangers',
     away: 'Cardiff City',
@@ -1701,7 +1665,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p34',
-    matchId: 'm35',
+    matchId: 'm34',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
     home: 'W.B.A',
     away: 'Charlton Athletic',
@@ -1722,7 +1686,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p35',
-    matchId: 'm36',
+    matchId: 'm35',
     league: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Premiership',
     home: 'Motherwell',
     away: 'Dundee United',
@@ -1743,7 +1707,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p36',
-    matchId: 'm37',
+    matchId: 'm36',
     league: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Premiership',
     home: 'Kilmarnock',
     away: 'St. Mirren',
@@ -1764,7 +1728,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p37',
-    matchId: 'm38',
+    matchId: 'm37',
     league: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Premiership',
     home: 'Celtic',
     away: 'Aberdeen',
@@ -1785,7 +1749,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p38',
-    matchId: 'm39',
+    matchId: 'm38',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
     home: 'Barnsley',
     away: 'Blackpool',
@@ -1806,7 +1770,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p39',
-    matchId: 'm40',
+    matchId: 'm39',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
     home: 'Burton Albion',
     away: 'AFC Wimbledon',
@@ -1827,7 +1791,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p40',
-    matchId: 'm41',
+    matchId: 'm40',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
     home: 'Luton Town',
     away: 'Stockport County',
@@ -1848,7 +1812,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p41',
-    matchId: 'm42',
+    matchId: 'm41',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
     home: 'Wigan Athletic',
     away: 'Milton Keynes Dons',
@@ -1869,7 +1833,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p42',
-    matchId: 'm43',
+    matchId: 'm42',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Championship',
     home: 'Burnley',
     away: 'Middlesbrough',
@@ -1890,7 +1854,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p43',
-    matchId: 'm44',
+    matchId: 'm43',
     league: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Premiership',
     home: 'Falkirk',
     away: 'Rangers FC',
@@ -1911,28 +1875,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p44',
-    matchId: 'm45',
-    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 League One',
-    home: 'Reading',
-    away: 'Mansfield Town',
-    score: '2 - 1',
-    confidence: 'mid',
-    confidencePct: 58,
-    homeProb: 44,
-    drawProb: 28,
-    awayProb: 28,
-    pick: 'HOME',
-    pickLabel: 'Reading Win',
-    odds: 2.05,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'Reading bermain di kandang dengan performa konsisten.',
-    h2hSummary: 'Reading menang 2 dari 3 pertemuan terakhir.',
-    keyPlayer: 'Harvey Knibbs'
-  },
-  {
-    id: 'p45',
-    matchId: 'm46',
+    matchId: 'm44',
     league: '🇪🇨 Ecuador Liga Pro Serie A',
     home: 'Macara',
     away: 'Manta FC',
@@ -1952,8 +1895,8 @@ export const PREDICTIONS_DATA: Prediction[] = [
     keyPlayer: 'Johan Julio'
   },
   {
-    id: 'p46',
-    matchId: 'm47',
+    id: 'p45',
+    matchId: 'm45',
     league: '🇪🇨 Ecuador Liga Pro Serie A',
     home: 'Deportivo Cuenca',
     away: 'Guayaquil City',
@@ -1973,8 +1916,8 @@ export const PREDICTIONS_DATA: Prediction[] = [
     keyPlayer: 'Lucas Mancinelli'
   },
   {
-    id: 'p47',
-    matchId: 'm48',
+    id: 'p46',
+    matchId: 'm46',
     league: '🇧🇷 Brazil Serie A',
     home: 'Flamengo RJ',
     away: 'Mirassol SP',
@@ -1994,8 +1937,8 @@ export const PREDICTIONS_DATA: Prediction[] = [
     keyPlayer: 'Gabriel Barbosa'
   },
   {
-    id: 'p48',
-    matchId: 'm49',
+    id: 'p47',
+    matchId: 'm47',
     league: '🇦🇷 Argentina Primera Nacional',
     home: 'CA Colegiales',
     away: 'CA Ferrocarril Midland',
@@ -2015,8 +1958,8 @@ export const PREDICTIONS_DATA: Prediction[] = [
     keyPlayer: 'Juan Cruz'
   },
   {
-    id: 'p49',
-    matchId: 'm50',
+    id: 'p48',
+    matchId: 'm48',
     league: '🇺🇸 USL Championship',
     home: 'Charleston Battery',
     away: 'Hartford Athletic',
@@ -2036,8 +1979,29 @@ export const PREDICTIONS_DATA: Prediction[] = [
     keyPlayer: 'Augi Williams'
   },
   {
+    id: 'p49',
+    matchId: 'm49',
+    league: '🇪🇨 Ecuador Liga Pro Serie A',
+    home: 'Barcelona SC',
+    away: 'Independiente del Valle',
+    score: '1 - 2',
+    confidence: 'high',
+    confidencePct: 72,
+    homeProb: 22,
+    drawProb: 24,
+    awayProb: 54,
+    pick: 'AWAY',
+    pickLabel: 'Independiente del Valle Win',
+    odds: 1.62,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Independiente del Valle adalah tim papan atas Ecuador dengan skuad bintang.',
+    h2hSummary: 'Independiente menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Kendry Paez'
+  },
+  {
     id: 'p50',
-    matchId: 'm51',
+    matchId: 'm50',
     league: '🇦🇷 Argentina Cup',
     home: 'Velez Sarsfield',
     away: 'Boca Juniors',
@@ -2058,7 +2022,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p51',
-    matchId: 'm52',
+    matchId: 'm51',
     league: '🇧🇷 Brazil Cup',
     home: 'Santos SP',
     away: 'Palmeiras SP',
@@ -2079,7 +2043,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p52',
-    matchId: 'm53',
+    matchId: 'm52',
     league: '🇧🇷 Brazil Cup',
     home: 'Vitoria BA',
     away: 'Vasco da Gama RJ',
@@ -2100,28 +2064,7 @@ export const PREDICTIONS_DATA: Prediction[] = [
   },
   {
     id: 'p53',
-    matchId: 'm54',
-    league: '🇪🇨 Ecuador Liga Pro Serie A',
-    home: 'Barcelona SC',
-    away: 'Independiente del Valle',
-    score: '1 - 2',
-    confidence: 'high',
-    confidencePct: 72,
-    homeProb: 22,
-    drawProb: 24,
-    awayProb: 54,
-    pick: 'AWAY',
-    pickLabel: 'Independiente del Valle Win',
-    odds: 1.62,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'Independiente del Valle adalah tim papan atas Ecuador dengan skuad bintang.',
-    h2hSummary: 'Independiente menang 3 dari 4 pertemuan terakhir.',
-    keyPlayer: 'Kendry Paez'
-  },
-  {
-    id: 'p54',
-    matchId: 'm55',
+    matchId: 'm53',
     league: '🌎 Leagues Cup',
     home: 'Deportivo Toluca',
     away: 'Club Leon',
@@ -2141,8 +2084,8 @@ export const PREDICTIONS_DATA: Prediction[] = [
     keyPlayer: 'Tiago Volpi'
   },
   {
-    id: 'p55',
-    matchId: 'm56',
+    id: 'p54',
+    matchId: 'm54',
     league: '🇨🇴 Colombia Primera A',
     home: 'Independiente Santa Fe',
     away: 'Millonarios',
@@ -2162,8 +2105,8 @@ export const PREDICTIONS_DATA: Prediction[] = [
     keyPlayer: 'Hugo Rodallega'
   },
   {
-    id: 'p56',
-    matchId: 'm57',
+    id: 'p55',
+    matchId: 'm55',
     league: '🌎 Leagues Cup',
     home: 'Club America',
     away: 'Monterrey',
@@ -2194,20 +2137,20 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Aman',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm38')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm38')!,
+        match: MATCHES_DATA.find(m => m.id === 'm37')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm37')!,
         odds: 1.52,
         pick: 'Celtic Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm48')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm48')!,
+        match: MATCHES_DATA.find(m => m.id === 'm46')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm46')!,
         odds: 1.42,
         pick: 'Flamengo Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm57')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm57')!,
+        match: MATCHES_DATA.find(m => m.id === 'm55')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm55')!,
         odds: 1.68,
         pick: 'Club America Menang'
       }
@@ -2222,20 +2165,20 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm15')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm15')!,
+        match: MATCHES_DATA.find(m => m.id === 'm14')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm14')!,
         odds: 1.42,
         pick: 'Zenit Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm38')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm38')!,
+        match: MATCHES_DATA.find(m => m.id === 'm37')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm37')!,
         odds: 1.52,
         pick: 'Celtic Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm48')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm48')!,
+        match: MATCHES_DATA.find(m => m.id === 'm46')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm46')!,
         odds: 1.42,
         pick: 'Flamengo Menang'
       }
@@ -2250,20 +2193,20 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm25')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm25')!,
+        match: MATCHES_DATA.find(m => m.id === 'm24')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm24')!,
         odds: 1.55,
         pick: 'Spartak Moscow Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm38')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm38')!,
+        match: MATCHES_DATA.find(m => m.id === 'm37')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm37')!,
         odds: 1.52,
         pick: 'Celtic Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm48')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm48')!,
+        match: MATCHES_DATA.find(m => m.id === 'm46')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm46')!,
         odds: 1.42,
         pick: 'Flamengo Menang'
       }
@@ -2278,26 +2221,26 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Tinggi (Jackpot)',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm15')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm15')!,
+        match: MATCHES_DATA.find(m => m.id === 'm14')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm14')!,
         odds: 1.42,
         pick: 'Zenit Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm25')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm25')!,
+        match: MATCHES_DATA.find(m => m.id === 'm24')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm24')!,
         odds: 1.55,
         pick: 'Spartak Moscow Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm38')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm38')!,
+        match: MATCHES_DATA.find(m => m.id === 'm37')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm37')!,
         odds: 1.52,
         pick: 'Celtic Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm48')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm48')!,
+        match: MATCHES_DATA.find(m => m.id === 'm46')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm46')!,
         odds: 1.42,
         pick: 'Flamengo Menang'
       }
@@ -2340,20 +2283,20 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm51')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm51')!,
+        match: MATCHES_DATA.find(m => m.id === 'm50')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm50')!,
         odds: 1.62,
         pick: 'Boca Juniors Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm55')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm55')!,
+        match: MATCHES_DATA.find(m => m.id === 'm53')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm53')!,
         odds: 1.68,
         pick: 'Toluca Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm57')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm57')!,
+        match: MATCHES_DATA.find(m => m.id === 'm55')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm55')!,
         odds: 1.68,
         pick: 'Club America Menang'
       }
