@@ -7,401 +7,401 @@ export const POPUP_BANNER_IMG = "https://ik.imagekit.io/8btthcfrf/Uploud/e6a972c
 export const BALL_ICON = "https://ik.imagekit.io/8btthcfrf/Uploud/Logo%20Bola%20k4d.png";
 
 export const MATCHES_DATA: Match[] = [
-  // ==================== 4 SEPTEMBER 2026 ====================
+  // ==================== 5 SEPTEMBER 2026 ====================
 
-  // KOREA K-LEAGUE 2
+  // KOREA K-LEAGUE 1
   {
     id: 'm1',
-    date: '04/09',
-    time: '18:30',
-    league: '🇰🇷 K-League 2',
+    date: '05/09',
+    time: '17:00',
+    league: '🇰🇷 K-League 1',
     leagueFlag: '🇰🇷',
-    home: 'Chungbuk Cheongju FC',
-    away: 'Seoul E-Land FC',
-    tag: 'K-League 2',
-    stadium: 'Cheongju Stadium',
-    homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['W', 'W', 'D', 'L', 'W'],
-    homeRank: 0,
-    awayRank: 0,
-    handicap: '1/2 : 0'
+    home: 'Jeonbuk Hyundai Motors',
+    away: 'Pohang Steelers',
+    tag: 'K-League 1',
+    stadium: 'Jeonju World Cup Stadium',
+    homeForm: ['W', 'W', 'D', 'L', 'W'],
+    awayForm: ['D', 'W', 'L', 'D', 'W'],
+    homeRank: 3,
+    awayRank: 7,
+    handicap: '0 : 1/2'
   },
   {
     id: 'm2',
-    date: '04/09',
-    time: '18:30',
-    league: '🇰🇷 K-League 2',
+    date: '05/09',
+    time: '17:00',
+    league: '🇰🇷 K-League 1',
     leagueFlag: '🇰🇷',
-    home: 'Paju Frontier FC',
-    away: 'Daegu FC',
-    tag: 'K-League 2',
-    stadium: 'Paju Stadium',
-    homeForm: ['L', 'D', 'W', 'L', 'D'],
-    awayForm: ['W', 'W', 'D', 'L', 'W'],
-    homeRank: 0,
-    awayRank: 0,
-    handicap: '3/4 : 0'
+    home: 'FC Seoul',
+    away: 'Incheon United',
+    tag: 'K-League 1',
+    stadium: 'Seoul World Cup Stadium',
+    homeForm: ['W', 'W', 'W', 'D', 'W'],
+    awayForm: ['L', 'D', 'W', 'L', 'D'],
+    homeRank: 1,
+    awayRank: 6,
+    handicap: '0 : 1/2'
   },
 
-
-  // ==================== 5 SEPTEMBER 2026 ====================
-
-  // TURKIYE SUPER LEAGUE
+  // ENGLISH PREMIER LEAGUE
   {
     id: 'm3',
     date: '05/09',
-    time: '01:00',
-    league: '🇹🇷 Turkiye Super League',
-    leagueFlag: '🇹🇷',
-    home: 'Istanbul Basaksehir',
-    away: 'Galatasaray',
-    tag: 'Super League',
-    stadium: 'Basaksehir Fatih Terim Stadium',
+    time: '18:30',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Newcastle United',
+    away: 'Bournemouth AFC',
+    tag: 'Premier League',
+    stadium: 'St James Park',
     homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['W', 'W', 'W', 'D', 'W'],
-    homeRank: 5,
-    awayRank: 1,
-    handicap: '3/4 : 0'
+    awayForm: ['L', 'D', 'W', 'L', 'D'],
+    homeRank: 7,
+    awayRank: 14,
+    handicap: '0 : 1/4'
   },
 
-  // SAUDI ARABIA PRO LEAGUE
+  // INDONESIA LIGA 1
   {
     id: 'm4',
     date: '05/09',
-    time: '02:00',
-    league: '🇸🇦 Saudi Pro League',
-    leagueFlag: '🇸🇦',
-    home: 'Al Shabab Riyadh',
-    away: 'Al Hilal Riyadh',
-    tag: 'Saudi Pro League',
-    stadium: 'Al Shabab Stadium',
+    time: '19:00',
+    league: '🇮🇩 Indonesia Liga 1',
+    leagueFlag: '🇮🇩',
+    home: 'Borneo FC Samarinda',
+    away: 'Persija Jakarta',
+    tag: 'Liga 1',
+    stadium: 'Segiri Samarinda Stadium',
     homeForm: ['W', 'W', 'D', 'L', 'W'],
-    awayForm: ['W', 'W', 'W', 'W', 'D'],
-    homeRank: 4,
-    awayRank: 1,
-    handicap: '1 1/2 : 0'
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 3,
+    awayRank: 2,
+    handicap: '0 : 0'
   },
   {
     id: 'm5',
     date: '05/09',
-    time: '02:00',
-    league: '🇸🇦 Saudi Pro League',
-    leagueFlag: '🇸🇦',
-    home: 'Al Ahli Jeddah',
-    away: 'Al Riyadh',
-    tag: 'Saudi Pro League',
-    stadium: 'King Abdullah Sports City',
+    time: '19:00',
+    league: '🇮🇩 Indonesia Liga 1',
+    leagueFlag: '🇮🇩',
+    home: 'Bhayangkara Presisi Lampung',
+    away: 'Persebaya Surabaya',
+    tag: 'Liga 1',
+    stadium: 'Pakansari Stadium',
+    homeForm: ['D', 'L', 'W', 'D', 'L'],
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 14,
+    awayRank: 5,
+    handicap: '0 : 0'
+  },
+
+  // GERMANY BUNDESLIGA
+  {
+    id: 'm6',
+    date: '05/09',
+    time: '20:30',
+    league: '🇩🇪 Bundesliga',
+    leagueFlag: '🇩🇪',
+    home: 'Bayer Leverkusen',
+    away: 'Union Berlin',
+    tag: 'Bundesliga',
+    stadium: 'BayArena',
     homeForm: ['W', 'W', 'D', 'L', 'W'],
-    awayForm: ['L', 'D', 'W', 'L', 'D'],
+    awayForm: ['D', 'L', 'W', 'D', 'L'],
     homeRank: 3,
-    awayRank: 12,
+    awayRank: 8,
+    handicap: '0 : 1 1/4'
+  },
+
+  // ENGLISH PREMIER LEAGUE
+  {
+    id: 'm7',
+    date: '05/09',
+    time: '21:00',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Manchester City',
+    away: 'Coventry City',
+    tag: 'Premier League',
+    stadium: 'Etihad Stadium',
+    homeForm: ['W', 'W', 'W', 'W', 'D'],
+    awayForm: ['L', 'D', 'W', 'L', 'D'],
+    homeRank: 1,
+    awayRank: 18,
+    handicap: '0 : 2 1/4'
+  },
+
+  // NETHERLANDS EREDIVISIE
+  {
+    id: 'm8',
+    date: '05/09',
+    time: '21:30',
+    league: '🇳🇱 Eredivisie',
+    leagueFlag: '🇳🇱',
+    home: 'Ajax',
+    away: 'PSV Eindhoven',
+    tag: 'Eredivisie Top Match',
+    stadium: 'Johan Cruyff Arena',
+    homeForm: ['W', 'W', 'W', 'W', 'D'],
+    awayForm: ['W', 'W', 'W', 'D', 'W'],
+    homeRank: 1,
+    awayRank: 2,
+    handicap: '0 : 0'
+  },
+
+  // ITALY SERIE A
+  {
+    id: 'm9',
+    date: '05/09',
+    time: '23:00',
+    league: '🇮🇹 Serie A',
+    leagueFlag: '🇮🇹',
+    home: 'Inter Milan',
+    away: 'Napoli',
+    tag: 'Serie A Big Match',
+    stadium: 'San Siro',
+    homeForm: ['W', 'W', 'W', 'D', 'W'],
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 1,
+    awayRank: 3,
+    handicap: '0 : 3/4'
+  },
+
+  // LIGA PORTUGAL
+  {
+    id: 'm10',
+    date: '05/09',
+    time: '23:00',
+    league: '🇵🇹 Liga Portugal',
+    leagueFlag: '🇵🇹',
+    home: 'Maritimo',
+    away: 'Benfica',
+    tag: 'Liga Portugal',
+    stadium: 'Estadio dos Barreiros',
+    homeForm: ['W', 'D', 'L', 'W', 'D'],
+    awayForm: ['W', 'W', 'W', 'W', 'D'],
+    homeRank: 9,
+    awayRank: 1,
+    handicap: '1 3/4 : 0'
+  },
+
+  // CZECHIA
+  {
+    id: 'm11',
+    date: '05/09',
+    time: '23:00',
+    league: '🇨🇿 Czechia',
+    leagueFlag: '🇨🇿',
+    home: 'Slavia Praha',
+    away: 'Zbrojovka Brno',
+    tag: 'Czechia',
+    stadium: 'Fortuna Arena',
+    homeForm: ['W', 'W', 'W', 'D', 'W'],
+    awayForm: ['L', 'D', 'W', 'L', 'D'],
+    homeRank: 0,
+    awayRank: 0,
     handicap: '0 : 1 1/2'
   },
 
   // ENGLISH PREMIER LEAGUE
   {
-    id: 'm6',
-    date: '05/09',
-    time: '03:00',
-    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
-    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-    home: 'Ipswich Town',
-    away: 'Liverpool',
-    tag: 'Premier League',
-    stadium: 'Portman Road',
-    homeForm: ['L', 'D', 'W', 'L', 'D'],
-    awayForm: ['W', 'W', 'W', 'D', 'W'],
-    homeRank: 17,
-    awayRank: 2,
-    handicap: '1 1/4 : 0'
-  },
-
-  // SPAIN LA LIGA
-  {
-    id: 'm7',
-    date: '05/09',
-    time: '03:00',
-    league: '🇪🇸 La Liga',
-    leagueFlag: '🇪🇸',
-    home: 'Real Betis',
-    away: 'Real Madrid',
-    tag: 'La Liga',
-    stadium: 'Benito Villamarin',
-    homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['W', 'W', 'W', 'D', 'W'],
-    homeRank: 7,
-    awayRank: 1,
-    handicap: '1 1/4 : 0'
-  },
-
-  // FRANCE LIGUE 1
-  {
-    id: 'm8',
-    date: '05/09',
-    time: '03:05',
-    league: '🇫🇷 Ligue 1',
-    leagueFlag: '🇫🇷',
-    home: 'Paris Saint Germain',
-    away: 'AS Monaco',
-    tag: 'Ligue 1',
-    stadium: 'Parc des Princes',
-    homeForm: ['W', 'W', 'W', 'W', 'D'],
-    awayForm: ['W', 'W', 'D', 'L', 'W'],
-    homeRank: 1,
-    awayRank: 2,
-    handicap: '0 : 1 1/2'
-  },
-
-  // BRAZIL SERIE B
-  {
-    id: 'm9',
-    date: '05/09',
-    time: '06:30',
-    league: '🇧🇷 Brazil Serie B',
-    leagueFlag: '🇧🇷',
-    home: 'Criciuma EC SC',
-    away: 'Cuiaba MT',
-    tag: 'Brazil Serie B',
-    stadium: 'Estadio Heriberto Hulse',
-    homeForm: ['W', 'W', 'W', 'D', 'W'],
-    awayForm: ['L', 'D', 'W', 'L', 'D'],
-    homeRank: 1,
-    awayRank: 14,
-    handicap: '0 : 1/2'
-  },
-  {
-    id: 'm10',
-    date: '05/09',
-    time: '08:30',
-    league: '🇧🇷 Brazil Serie B',
-    leagueFlag: '🇧🇷',
-    home: 'CRB Maceio',
-    away: 'America Mineiro',
-    tag: 'Brazil Serie B',
-    stadium: 'Estadio Rei Pele',
-    homeForm: ['W', 'D', 'L', 'W', 'D'],
-    awayForm: ['L', 'L', 'D', 'L', 'L'],
-    homeRank: 6,
-    awayRank: 19,
-    handicap: '0 : 1'
-  },
-
-  // MEXICO PRIMERA DIVISION
-  {
-    id: 'm11',
-    date: '05/09',
-    time: '09:00',
-    league: '🇲🇽 Mexico Primera Division',
-    leagueFlag: '🇲🇽',
-    home: 'Puebla FC',
-    away: 'Deportivo Toluca',
-    tag: 'Liga MX',
-    stadium: 'Estadio Cuauhtemoc',
-    homeForm: ['D', 'L', 'W', 'D', 'L'],
-    awayForm: ['W', 'W', 'D', 'L', 'W'],
-    homeRank: 15,
-    awayRank: 5,
-    handicap: '3/4 : 0'
-  },
-  {
     id: 'm12',
     date: '05/09',
-    time: '11:00',
-    league: '🇲🇽 Mexico Primera Division',
-    leagueFlag: '🇲🇽',
-    home: 'FC Juarez',
-    away: 'Pachuca',
-    tag: 'Liga MX',
-    stadium: 'Estadio Olimpico Benito Juarez',
+    time: '23:30',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
+    leagueFlag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    home: 'Nottingham Forest',
+    away: 'Tottenham Hotspur',
+    tag: 'Premier League',
+    stadium: 'City Ground',
+    homeForm: ['D', 'W', 'L', 'D', 'W'],
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 10,
+    awayRank: 5,
+    handicap: '0 : 1/4'
+  },
+
+  // GERMANY BUNDESLIGA
+  {
+    id: 'm13',
+    date: '05/09',
+    time: '23:30',
+    league: '🇩🇪 Bundesliga',
+    leagueFlag: '🇩🇪',
+    home: 'Schalke 04',
+    away: 'Bayern Munchen',
+    tag: 'Bundesliga',
+    stadium: 'Veltins-Arena',
+    homeForm: ['D', 'L', 'W', 'D', 'L'],
+    awayForm: ['W', 'W', 'W', 'W', 'D'],
+    homeRank: 12,
+    awayRank: 1,
+    handicap: '2 1/4 : 0'
+  },
+
+  // NETHERLANDS EREDIVISIE
+  {
+    id: 'm14',
+    date: '05/09',
+    time: '23:45',
+    league: '🇳🇱 Eredivisie',
+    leagueFlag: '🇳🇱',
+    home: 'NEC Nijmegen',
+    away: 'Feyenoord',
+    tag: 'Eredivisie',
+    stadium: 'Goffertstadion',
+    homeForm: ['D', 'W', 'L', 'W', 'D'],
+    awayForm: ['W', 'W', 'W', 'D', 'W'],
+    homeRank: 10,
+    awayRank: 3,
+    handicap: '1/4 : 0'
+  },
+
+
+  // ==================== 6 SEPTEMBER 2026 ====================
+
+  // TURKIYE SUPER LEAGUE
+  {
+    id: 'm15',
+    date: '06/09',
+    time: '00:00',
+    league: '🇹🇷 Turkiye Super League',
+    leagueFlag: '🇹🇷',
+    home: 'Fenerbahce',
+    away: 'Besiktas',
+    tag: 'Super League Derby',
+    stadium: 'Ulker Stadium',
+    homeForm: ['W', 'W', 'W', 'D', 'W'],
+    awayForm: ['W', 'W', 'W', 'D', 'W'],
+    homeRank: 2,
+    awayRank: 1,
+    handicap: '0 : 1/2'
+  },
+
+  // GERMANY BUNDESLIGA
+  {
+    id: 'm16',
+    date: '06/09',
+    time: '00:30',
+    league: '🇩🇪 Bundesliga',
+    leagueFlag: '🇩🇪',
+    home: 'Hoffenheim',
+    away: 'Borussia Dortmund',
+    tag: 'Bundesliga',
+    stadium: 'PreZero Arena',
     homeForm: ['W', 'D', 'L', 'W', 'D'],
     awayForm: ['W', 'W', 'D', 'L', 'W'],
-    homeRank: 9,
-    awayRank: 6,
-    handicap: '1/2 : 0'
+    homeRank: 6,
+    awayRank: 4,
+    handicap: '1/4 : 0'
+  },
+
+  // SAUDI ARABIA PRO LEAGUE
+  {
+    id: 'm17',
+    date: '06/09',
+    time: '01:00',
+    league: '🇸🇦 Saudi Pro League',
+    leagueFlag: '🇸🇦',
+    home: 'Al Ittihad',
+    away: 'Al Nassr',
+    tag: 'Saudi Derby',
+    stadium: 'King Abdullah Sports City',
+    homeForm: ['W', 'W', 'W', 'D', 'W'],
+    awayForm: ['W', 'W', 'W', 'D', 'W'],
+    homeRank: 2,
+    awayRank: 3,
+    handicap: '1 : 0'
+  },
+
+  // ITALY SERIE A
+  {
+    id: 'm18',
+    date: '06/09',
+    time: '01:45',
+    league: '🇮🇹 Serie A',
+    leagueFlag: '🇮🇹',
+    home: 'Roma',
+    away: 'Atalanta',
+    tag: 'Serie A',
+    stadium: 'Stadio Olimpico',
+    homeForm: ['W', 'W', 'D', 'L', 'W'],
+    awayForm: ['W', 'W', 'D', 'L', 'W'],
+    homeRank: 5,
+    awayRank: 4,
+    handicap: '0 : 3/4'
+  },
+
+  // LIGA PORTUGAL
+  {
+    id: 'm19',
+    date: '06/09',
+    time: '02:30',
+    league: '🇵🇹 Liga Portugal',
+    leagueFlag: '🇵🇹',
+    home: 'Sporting Lisbon',
+    away: 'Nacional',
+    tag: 'Liga Portugal',
+    stadium: 'Estadio Jose Alvalade',
+    homeForm: ['W', 'W', 'W', 'D', 'W'],
+    awayForm: ['L', 'D', 'W', 'L', 'D'],
+    homeRank: 2,
+    awayRank: 12,
+    handicap: '0 : 1 3/4'
   }
 ];
 
 export const PREDICTIONS_DATA: Prediction[] = [
-  // ==================== 4 SEPTEMBER 2026 ====================
+  // ==================== 5 SEPTEMBER 2026 ====================
 
   {
     id: 'p1',
     matchId: 'm1',
-    league: '🇰🇷 K-League 2',
-    home: 'Chungbuk Cheongju FC',
-    away: 'Seoul E-Land FC',
-    score: '1 - 2',
+    league: '🇰🇷 K-League 1',
+    home: 'Jeonbuk Hyundai Motors',
+    away: 'Pohang Steelers',
+    score: '2 - 1',
     confidence: 'mid',
-    confidencePct: 58,
-    homeProb: 30,
-    drawProb: 28,
-    awayProb: 42,
-    pick: 'AWAY',
-    pickLabel: 'Seoul E-Land Win',
-    odds: 2.10,
+    confidencePct: 62,
+    homeProb: 48,
+    drawProb: 26,
+    awayProb: 26,
+    pick: 'HOME',
+    pickLabel: 'Jeonbuk Hyundai Motors Win',
+    odds: 1.92,
     overUnder: 'Over 2.5',
     btts: 'YES',
-    note: 'Seoul E-Land FC adalah tim papan atas K-League 2 dengan skuad berkualitas.',
-    h2hSummary: 'Seoul E-Land menang 2 dari 3 pertemuan terakhir.',
-    keyPlayer: 'Joo Min-kyu'
+    note: 'Jeonbuk Hyundai Motors adalah tim papan atas K-League 1 dengan skuad berkualitas.',
+    h2hSummary: 'Jeonbuk menang 2 dari 3 pertemuan terakhir.',
+    keyPlayer: 'Han Kyo-won'
   },
   {
     id: 'p2',
     matchId: 'm2',
-    league: '🇰🇷 K-League 2',
-    home: 'Paju Frontier FC',
-    away: 'Daegu FC',
-    score: '0 - 2',
+    league: '🇰🇷 K-League 1',
+    home: 'FC Seoul',
+    away: 'Incheon United',
+    score: '2 - 1',
     confidence: 'high',
     confidencePct: 72,
-    homeProb: 18,
-    drawProb: 20,
-    awayProb: 62,
-    pick: 'AWAY',
-    pickLabel: 'Daegu FC Win',
-    odds: 1.62,
-    overUnder: 'Under 2.5',
-    btts: 'NO',
-    note: 'Daegu FC adalah tim papan atas K-League 2 dengan skuad bintang.',
-    h2hSummary: 'Daegu menang 3 dari 4 pertemuan terakhir.',
-    keyPlayer: 'Cesinha'
+    homeProb: 68,
+    drawProb: 18,
+    awayProb: 14,
+    pick: 'HOME',
+    pickLabel: 'FC Seoul Win',
+    odds: 1.68,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'FC Seoul adalah pemuncak klasemen K-League 1 dan dominan di kandang.',
+    h2hSummary: 'FC Seoul menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Jesse Lingard'
   },
-
-
-  // ==================== 5 SEPTEMBER 2026 ====================
-
   {
     id: 'p3',
     matchId: 'm3',
-    league: '🇹🇷 Turkiye Super League',
-    home: 'Istanbul Basaksehir',
-    away: 'Galatasaray',
-    score: '1 - 2',
-    confidence: 'high',
-    confidencePct: 74,
-    homeProb: 22,
-    drawProb: 24,
-    awayProb: 54,
-    pick: 'AWAY',
-    pickLabel: 'Galatasaray Win',
-    odds: 1.58,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'Galatasaray adalah raja Turki dengan skuad bintang dan target juara.',
-    h2hSummary: 'Galatasaray menang 3 dari 4 pertemuan terakhir.',
-    keyPlayer: 'Mauro Icardi'
-  },
-  {
-    id: 'p4',
-    matchId: 'm4',
-    league: '🇸🇦 Saudi Pro League',
-    home: 'Al Shabab Riyadh',
-    away: 'Al Hilal Riyadh',
-    score: '1 - 3',
-    confidence: 'high',
-    confidencePct: 80,
-    homeProb: 12,
-    drawProb: 16,
-    awayProb: 72,
-    pick: 'AWAY',
-    pickLabel: 'Al Hilal Win & Over 2.5',
-    odds: 1.48,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'Al Hilal Riyadh adalah raja Saudi dengan skuad bintang dan target juara.',
-    h2hSummary: 'Al Hilal selalu menang telak di ajang liga.',
-    keyPlayer: 'Neymar Jr'
-  },
-  {
-    id: 'p5',
-    matchId: 'm5',
-    league: '🇸🇦 Saudi Pro League',
-    home: 'Al Ahli Jeddah',
-    away: 'Al Riyadh',
-    score: '3 - 0',
-    confidence: 'high',
-    confidencePct: 78,
-    homeProb: 76,
-    drawProb: 14,
-    awayProb: 10,
-    pick: 'HOME',
-    pickLabel: 'Al Ahli Win to Nil',
-    odds: 1.52,
-    overUnder: 'Over 2.5',
-    btts: 'NO',
-    note: 'Al Ahli Jeddah adalah tim papan atas Saudi dengan skuad bintang.',
-    h2hSummary: 'Al Ahli selalu menang telak di kandang.',
-    keyPlayer: 'Roberto Firmino'
-  },
-  {
-    id: 'p6',
-    matchId: 'm6',
     league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
-    home: 'Ipswich Town',
-    away: 'Liverpool',
-    score: '0 - 3',
-    confidence: 'high',
-    confidencePct: 82,
-    homeProb: 6,
-    drawProb: 12,
-    awayProb: 82,
-    pick: 'AWAY',
-    pickLabel: 'Liverpool Win to Nil',
-    odds: 1.40,
-    overUnder: 'Over 2.5',
-    btts: 'NO',
-    note: 'Liverpool adalah raja Premier League dengan skuad bintang dan target juara.',
-    h2hSummary: 'Liverpool selalu menang telak di kandang lawan.',
-    keyPlayer: 'Mohamed Salah'
-  },
-  {
-    id: 'p7',
-    matchId: 'm7',
-    league: '🇪🇸 La Liga',
-    home: 'Real Betis',
-    away: 'Real Madrid',
-    score: '1 - 2',
-    confidence: 'high',
-    confidencePct: 78,
-    homeProb: 18,
-    drawProb: 20,
-    awayProb: 62,
-    pick: 'AWAY',
-    pickLabel: 'Real Madrid Win',
-    odds: 1.52,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'Real Madrid adalah raja Spanyol dengan skuad bintang dan target juara La Liga.',
-    h2hSummary: 'Real Madrid menang 4 dari 5 pertemuan terakhir.',
-    keyPlayer: 'Jude Bellingham'
-  },
-  {
-    id: 'p8',
-    matchId: 'm8',
-    league: '🇫🇷 Ligue 1',
-    home: 'Paris Saint Germain',
-    away: 'AS Monaco',
-    score: '3 - 1',
-    confidence: 'high',
-    confidencePct: 80,
-    homeProb: 78,
-    drawProb: 14,
-    awayProb: 8,
-    pick: 'HOME',
-    pickLabel: 'PSG Win & Over 2.5',
-    odds: 1.48,
-    overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'PSG adalah raja Prancis dengan skuad bintang dan target juara Ligue 1.',
-    h2hSummary: 'PSG selalu menang telak di Parc des Princes.',
-    keyPlayer: 'Kylian Mbappe'
-  },
-  {
-    id: 'p9',
-    matchId: 'm9',
-    league: '🇧🇷 Brazil Serie B',
-    home: 'Criciuma EC SC',
-    away: 'Cuiaba MT',
+    home: 'Newcastle United',
+    away: 'Bournemouth AFC',
     score: '1 - 1',
     confidence: 'mid',
     confidencePct: 54,
@@ -413,37 +413,226 @@ export const PREDICTIONS_DATA: Prediction[] = [
     odds: 2.20,
     overUnder: 'Under 2.5',
     btts: 'YES',
-    note: 'Criciuma adalah pemuncak klasemen tapi Cuiaba bisa memberikan kejutan.',
+    note: 'Kedua tim berimbang di papan tengah Premier League.',
     h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
-    keyPlayer: 'Lucas Leandro'
+    keyPlayer: 'Alexander Isak'
+  },
+  {
+    id: 'p4',
+    matchId: 'm4',
+    league: '🇮🇩 Indonesia Liga 1',
+    home: 'Borneo FC Samarinda',
+    away: 'Persija Jakarta',
+    score: '2 - 1',
+    confidence: 'mid',
+    confidencePct: 58,
+    homeProb: 44,
+    drawProb: 28,
+    awayProb: 28,
+    pick: 'HOME',
+    pickLabel: 'Borneo FC Win',
+    odds: 2.05,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Borneo FC bermain di kandang dengan dukungan penuh suporter.',
+    h2hSummary: 'Borneo menang 2 dari 3 pertemuan terakhir.',
+    keyPlayer: 'Matheus Pato'
+  },
+  {
+    id: 'p5',
+    matchId: 'm5',
+    league: '🇮🇩 Indonesia Liga 1',
+    home: 'Bhayangkara Presisi Lampung',
+    away: 'Persebaya Surabaya',
+    score: '1 - 2',
+    confidence: 'mid',
+    confidencePct: 58,
+    homeProb: 30,
+    drawProb: 28,
+    awayProb: 42,
+    pick: 'AWAY',
+    pickLabel: 'Persebaya Win',
+    odds: 2.10,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Persebaya Surabaya adalah tim papan atas Liga 1 dengan skuad berkualitas.',
+    h2hSummary: 'Persebaya menang 2 dari 3 pertemuan terakhir.',
+    keyPlayer: 'Paulo Henrique'
+  },
+  {
+    id: 'p6',
+    matchId: 'm6',
+    league: '🇩🇪 Bundesliga',
+    home: 'Bayer Leverkusen',
+    away: 'Union Berlin',
+    score: '3 - 1',
+    confidence: 'high',
+    confidencePct: 74,
+    homeProb: 70,
+    drawProb: 18,
+    awayProb: 12,
+    pick: 'HOME',
+    pickLabel: 'Leverkusen Win & Over 2.5',
+    odds: 1.58,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Bayer Leverkusen adalah tim papan atas Bundesliga dengan skuad bintang.',
+    h2hSummary: 'Leverkusen menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Florian Wirtz'
+  },
+  {
+    id: 'p7',
+    matchId: 'm7',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
+    home: 'Manchester City',
+    away: 'Coventry City',
+    score: '4 - 0',
+    confidence: 'high',
+    confidencePct: 84,
+    homeProb: 82,
+    drawProb: 12,
+    awayProb: 6,
+    pick: 'HOME',
+    pickLabel: 'Man City Win to Nil',
+    odds: 1.38,
+    overUnder: 'Over 2.5',
+    btts: 'NO',
+    note: 'Manchester City adalah raja Premier League dengan skuad bintang dan target juara.',
+    h2hSummary: 'Man City selalu menang telak di Etihad.',
+    keyPlayer: 'Erling Haaland'
+  },
+  {
+    id: 'p8',
+    matchId: 'm8',
+    league: '🇳🇱 Eredivisie',
+    home: 'Ajax',
+    away: 'PSV Eindhoven',
+    score: '2 - 2',
+    confidence: 'mid',
+    confidencePct: 55,
+    homeProb: 32,
+    drawProb: 36,
+    awayProb: 32,
+    pick: 'DRAW',
+    pickLabel: 'Draw / BTTS Yes',
+    odds: 2.20,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Laga puncak Eredivisie antara dua tim terbaik Belanda.',
+    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
+    keyPlayer: 'Steven Bergwijn'
+  },
+  {
+    id: 'p9',
+    matchId: 'm9',
+    league: '🇮🇹 Serie A',
+    home: 'Inter Milan',
+    away: 'Napoli',
+    score: '2 - 1',
+    confidence: 'high',
+    confidencePct: 72,
+    homeProb: 68,
+    drawProb: 18,
+    awayProb: 14,
+    pick: 'HOME',
+    pickLabel: 'Inter Milan Win',
+    odds: 1.68,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Inter Milan adalah raja Italia dengan skuad bintang dan target juara Serie A.',
+    h2hSummary: 'Inter menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Lautaro Martinez'
   },
   {
     id: 'p10',
     matchId: 'm10',
-    league: '🇧🇷 Brazil Serie B',
-    home: 'CRB Maceio',
-    away: 'America Mineiro',
-    score: '2 - 1',
+    league: '🇵🇹 Liga Portugal',
+    home: 'Maritimo',
+    away: 'Benfica',
+    score: '0 - 3',
     confidence: 'high',
-    confidencePct: 70,
-    homeProb: 66,
-    drawProb: 20,
-    awayProb: 14,
-    pick: 'HOME',
-    pickLabel: 'CRB Maceio Win',
-    odds: 1.68,
+    confidencePct: 80,
+    homeProb: 8,
+    drawProb: 14,
+    awayProb: 78,
+    pick: 'AWAY',
+    pickLabel: 'Benfica Win to Nil',
+    odds: 1.45,
     overUnder: 'Over 2.5',
-    btts: 'YES',
-    note: 'CRB Maceio adalah tim papan atas Brazil Serie B, America Mineiro tim juru kunci.',
-    h2hSummary: 'CRB menang 3 dari 4 pertemuan terakhir.',
-    keyPlayer: 'Anselmo Ramon'
+    btts: 'NO',
+    note: 'Benfica adalah raja Portugal dengan skuad bintang.',
+    h2hSummary: 'Benfica selalu menang telak di kandang lawan.',
+    keyPlayer: 'Angel Di Maria'
   },
   {
     id: 'p11',
     matchId: 'm11',
-    league: '🇲🇽 Mexico Primera Division',
-    home: 'Puebla FC',
-    away: 'Deportivo Toluca',
+    league: '🇨🇿 Czechia',
+    home: 'Slavia Praha',
+    away: 'Zbrojovka Brno',
+    score: '3 - 0',
+    confidence: 'high',
+    confidencePct: 76,
+    homeProb: 72,
+    drawProb: 18,
+    awayProb: 10,
+    pick: 'HOME',
+    pickLabel: 'Slavia Praha Win to Nil',
+    odds: 1.55,
+    overUnder: 'Over 2.5',
+    btts: 'NO',
+    note: 'Slavia Praha adalah raja Czechia dengan skuad bintang.',
+    h2hSummary: 'Slavia selalu menang telak di kandang.',
+    keyPlayer: 'Vaclav Jurecka'
+  },
+  {
+    id: 'p12',
+    matchId: 'm12',
+    league: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League',
+    home: 'Nottingham Forest',
+    away: 'Tottenham Hotspur',
+    score: '1 - 2',
+    confidence: 'mid',
+    confidencePct: 62,
+    homeProb: 28,
+    drawProb: 26,
+    awayProb: 46,
+    pick: 'AWAY',
+    pickLabel: 'Tottenham Win',
+    odds: 1.92,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Tottenham memiliki skuad lebih berkualitas dan target top 4 Premier League.',
+    h2hSummary: 'Tottenham menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Son Heung-min'
+  },
+  {
+    id: 'p13',
+    matchId: 'm13',
+    league: '🇩🇪 Bundesliga',
+    home: 'Schalke 04',
+    away: 'Bayern Munchen',
+    score: '0 - 3',
+    confidence: 'high',
+    confidencePct: 82,
+    homeProb: 8,
+    drawProb: 14,
+    awayProb: 78,
+    pick: 'AWAY',
+    pickLabel: 'Bayern Win to Nil',
+    odds: 1.42,
+    overUnder: 'Over 2.5',
+    btts: 'NO',
+    note: 'Bayern Munchen adalah raja Jerman dengan skuad bintang dan target treble.',
+    h2hSummary: 'Bayern selalu menang telak di kandang lawan.',
+    keyPlayer: 'Harry Kane'
+  },
+  {
+    id: 'p14',
+    matchId: 'm14',
+    league: '🇳🇱 Eredivisie',
+    home: 'NEC Nijmegen',
+    away: 'Feyenoord',
     score: '1 - 2',
     confidence: 'high',
     confidencePct: 72,
@@ -451,34 +640,122 @@ export const PREDICTIONS_DATA: Prediction[] = [
     drawProb: 24,
     awayProb: 54,
     pick: 'AWAY',
-    pickLabel: 'Deportivo Toluca Win',
+    pickLabel: 'Feyenoord Win',
     odds: 1.62,
     overUnder: 'Over 2.5',
     btts: 'YES',
-    note: 'Deportivo Toluca adalah tim papan atas Liga MX dengan skuad berkualitas.',
-    h2hSummary: 'Toluca menang 3 dari 4 pertemuan terakhir.',
-    keyPlayer: 'Tiago Volpi'
+    note: 'Feyenoord adalah tim papan atas Eredivisie dengan skuad bintang.',
+    h2hSummary: 'Feyenoord menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Santiago Gimenez'
   },
+
+
+  // ==================== 6 SEPTEMBER 2026 ====================
+
   {
-    id: 'p12',
-    matchId: 'm12',
-    league: '🇲🇽 Mexico Primera Division',
-    home: 'FC Juarez',
-    away: 'Pachuca',
-    score: '1 - 2',
+    id: 'p15',
+    matchId: 'm15',
+    league: '🇹🇷 Turkiye Super League',
+    home: 'Fenerbahce',
+    away: 'Besiktas',
+    score: '2 - 1',
     confidence: 'mid',
     confidencePct: 60,
-    homeProb: 30,
+    homeProb: 46,
     drawProb: 28,
-    awayProb: 42,
-    pick: 'AWAY',
-    pickLabel: 'Pachuca Win',
-    odds: 2.05,
+    awayProb: 26,
+    pick: 'HOME',
+    pickLabel: 'Fenerbahce Win',
+    odds: 1.95,
     overUnder: 'Over 2.5',
     btts: 'YES',
-    note: 'Pachuca adalah tim papan atas Liga MX dengan skuad berkualitas.',
-    h2hSummary: 'Pachuca menang 2 dari 3 pertemuan terakhir.',
-    keyPlayer: 'Erick Sanchez'
+    note: 'Fenerbahce bermain di kandang dengan dukungan penuh suporter di derby.',
+    h2hSummary: 'Fenerbahce menang 2 dari 3 pertemuan terakhir.',
+    keyPlayer: 'Edin Dzeko'
+  },
+  {
+    id: 'p16',
+    matchId: 'm16',
+    league: '🇩🇪 Bundesliga',
+    home: 'Hoffenheim',
+    away: 'Borussia Dortmund',
+    score: '1 - 2',
+    confidence: 'high',
+    confidencePct: 72,
+    homeProb: 22,
+    drawProb: 24,
+    awayProb: 54,
+    pick: 'AWAY',
+    pickLabel: 'Dortmund Win',
+    odds: 1.62,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Borussia Dortmund adalah tim papan atas Bundesliga dengan skuad bintang.',
+    h2hSummary: 'Dortmund menang 3 dari 4 pertemuan terakhir.',
+    keyPlayer: 'Julian Brandt'
+  },
+  {
+    id: 'p17',
+    matchId: 'm17',
+    league: '🇸🇦 Saudi Pro League',
+    home: 'Al Ittihad',
+    away: 'Al Nassr',
+    score: '2 - 2',
+    confidence: 'mid',
+    confidencePct: 55,
+    homeProb: 32,
+    drawProb: 36,
+    awayProb: 32,
+    pick: 'DRAW',
+    pickLabel: 'Draw / BTTS Yes',
+    odds: 2.20,
+    overUnder: 'Over 2.5',
+    btts: 'YES',
+    note: 'Derby Saudi antara dua tim bintang dengan skuad super.',
+    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
+    keyPlayer: 'Karim Benzema'
+  },
+  {
+    id: 'p18',
+    matchId: 'm18',
+    league: '🇮🇹 Serie A',
+    home: 'Roma',
+    away: 'Atalanta',
+    score: '1 - 1',
+    confidence: 'mid',
+    confidencePct: 54,
+    homeProb: 34,
+    drawProb: 36,
+    awayProb: 30,
+    pick: 'DRAW',
+    pickLabel: 'Draw / Under 2.5',
+    odds: 2.20,
+    overUnder: 'Under 2.5',
+    btts: 'YES',
+    note: 'Kedua tim berimbang di papan atas Serie A.',
+    h2hSummary: '2 dari 3 pertemuan berakhir imbang.',
+    keyPlayer: 'Paulo Dybala'
+  },
+  {
+    id: 'p19',
+    matchId: 'm19',
+    league: '🇵🇹 Liga Portugal',
+    home: 'Sporting Lisbon',
+    away: 'Nacional',
+    score: '3 - 0',
+    confidence: 'high',
+    confidencePct: 80,
+    homeProb: 78,
+    drawProb: 14,
+    awayProb: 8,
+    pick: 'HOME',
+    pickLabel: 'Sporting Win to Nil',
+    odds: 1.42,
+    overUnder: 'Over 2.5',
+    btts: 'NO',
+    note: 'Sporting Lisbon adalah raja Portugal dengan skuad bintang.',
+    h2hSummary: 'Sporting selalu menang telak di kandang.',
+    keyPlayer: 'Viktor Gyokeres'
   }
 ];
 
@@ -492,22 +769,22 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Aman',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm6')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
-        odds: 1.40,
-        pick: 'Liverpool Menang'
-      },
-      {
-        match: MATCHES_DATA.find(m => m.id === 'm8')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
-        odds: 1.48,
-        pick: 'PSG Menang'
-      },
-      {
         match: MATCHES_DATA.find(m => m.id === 'm7')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm7')!,
-        odds: 1.52,
-        pick: 'Real Madrid Menang'
+        odds: 1.38,
+        pick: 'Manchester City Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm13')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm13')!,
+        odds: 1.42,
+        pick: 'Bayern Munchen Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm19')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm19')!,
+        odds: 1.42,
+        pick: 'Sporting Lisbon Menang'
       }
     ]
   },
@@ -520,22 +797,22 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm3')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm3')!,
-        odds: 1.58,
-        pick: 'Galatasaray Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm9')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm9')!,
+        odds: 1.68,
+        pick: 'Inter Milan Menang'
       },
       {
         match: MATCHES_DATA.find(m => m.id === 'm6')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
-        odds: 1.40,
-        pick: 'Liverpool Menang'
+        odds: 1.58,
+        pick: 'Leverkusen Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm8')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
-        odds: 1.48,
-        pick: 'PSG Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm14')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm14')!,
+        odds: 1.62,
+        pick: 'Feyenoord Menang'
       }
     ]
   },
@@ -548,22 +825,22 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm4')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm4')!,
-        odds: 1.48,
-        pick: 'Al Hilal Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm7')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm7')!,
+        odds: 1.38,
+        pick: 'Manchester City Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm6')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
-        odds: 1.40,
-        pick: 'Liverpool Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm10')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm10')!,
+        odds: 1.45,
+        pick: 'Benfica Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm8')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
-        odds: 1.48,
-        pick: 'PSG Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm12')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm12')!,
+        odds: 1.92,
+        pick: 'Tottenham Menang'
       }
     ]
   },
@@ -576,84 +853,84 @@ export const PARLAY_PACKAGES: ParlayPackage[] = [
     riskLevel: 'Tinggi (Jackpot)',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm4')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm4')!,
-        odds: 1.48,
-        pick: 'Al Hilal Menang'
-      },
-      {
-        match: MATCHES_DATA.find(m => m.id === 'm6')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
-        odds: 1.40,
-        pick: 'Liverpool Menang'
-      },
-      {
         match: MATCHES_DATA.find(m => m.id === 'm7')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm7')!,
-        odds: 1.52,
-        pick: 'Real Madrid Menang'
+        odds: 1.38,
+        pick: 'Manchester City Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm8')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm8')!,
-        odds: 1.48,
-        pick: 'PSG Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm10')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm10')!,
+        odds: 1.45,
+        pick: 'Benfica Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm13')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm13')!,
+        odds: 1.42,
+        pick: 'Bayern Munchen Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm19')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm19')!,
+        odds: 1.42,
+        pick: 'Sporting Lisbon Menang'
       }
     ]
   },
   {
     id: 'pkg-5',
-    title: '🇸🇦 SAUDI PRO LEAGUE COMBO (3-TIM)',
-    source: 'Rekomendasi Liga Saudi',
+    title: '🇮🇩🇰🇷 INDONESIA & KOREA COMBO (3-TIM)',
+    source: 'Rekomendasi Liga Asia',
     badge: 'Odds @5.50x',
     totalOdds: 5.50,
     riskLevel: 'Sedang',
     legs: [
       {
+        match: MATCHES_DATA.find(m => m.id === 'm1')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm1')!,
+        odds: 1.92,
+        pick: 'Jeonbuk Hyundai Motors Menang'
+      },
+      {
+        match: MATCHES_DATA.find(m => m.id === 'm2')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm2')!,
+        odds: 1.68,
+        pick: 'FC Seoul Menang'
+      },
+      {
         match: MATCHES_DATA.find(m => m.id === 'm4')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm4')!,
-        odds: 1.48,
-        pick: 'Al Hilal Menang'
-      },
-      {
-        match: MATCHES_DATA.find(m => m.id === 'm5')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm5')!,
-        odds: 1.52,
-        pick: 'Al Ahli Jeddah Menang'
-      },
-      {
-        match: MATCHES_DATA.find(m => m.id === 'm11')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
-        odds: 1.62,
-        pick: 'Toluca Menang'
+        odds: 2.05,
+        pick: 'Borneo FC Menang'
       }
     ]
   },
   {
     id: 'pkg-6',
-    title: '🇲🇽🇧🇷 MEXICO & BRAZIL COMBO (3-TIM)',
-    source: 'Rekomendasi Liga Amerika',
+    title: '🇪🇺 BIG FIVE COMBO (3-TIM)',
+    source: 'Rekomendasi Liga Top 5 Eropa',
     badge: 'Odds @5.25x',
     totalOdds: 5.25,
     riskLevel: 'Sedang',
     legs: [
       {
-        match: MATCHES_DATA.find(m => m.id === 'm10')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm10')!,
-        odds: 1.68,
-        pick: 'CRB Maceio Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm6')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm6')!,
+        odds: 1.58,
+        pick: 'Leverkusen Menang'
       },
       {
-        match: MATCHES_DATA.find(m => m.id === 'm11')!,
-        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm11')!,
-        odds: 1.62,
-        pick: 'Toluca Menang'
+        match: MATCHES_DATA.find(m => m.id === 'm9')!,
+        prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm9')!,
+        odds: 1.68,
+        pick: 'Inter Milan Menang'
       },
       {
         match: MATCHES_DATA.find(m => m.id === 'm12')!,
         prediction: PREDICTIONS_DATA.find(p => p.matchId === 'm12')!,
-        odds: 2.05,
-        pick: 'Pachuca Menang'
+        odds: 1.92,
+        pick: 'Tottenham Menang'
       }
     ]
   }
@@ -717,7 +994,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     city: 'Semarang',
     type: 'win',
     amount: 14200000,
-    text: 'Prediksi Liverpool & PSG kemarin tembus semua! Saya pasang single bet combo menang 14.2jt. Web ini informasinya paling update & akurat! 🏅',
+    text: 'Prediksi Manchester City & Bayern kemarin tembus semua! Saya pasang single bet combo menang 14.2jt. Web ini informasinya paling update & akurat! 🏅',
     stars: 5,
     time: '2 jam lalu',
     avatarColor: 'pink',
@@ -769,7 +1046,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     city: 'Surabaya',
     type: 'win',
     amount: 8200000,
-    text: 'Ikutin prediksi Liverpool & PSG kemarin, 2 single bet masuk semua! WD 8.2jt langsung cair. Terima kasih KAPSUL4D! ✅',
+    text: 'Ikutin prediksi Manchester City & Inter Milan kemarin, 2 single bet masuk semua! WD 8.2jt langsung cair. Terima kasih KAPSUL4D! ✅',
     stars: 5,
     time: '8 jam lalu',
     avatarColor: 'purple',
@@ -833,7 +1110,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     city: 'Bandung',
     type: 'win',
     amount: 5600000,
-    text: 'Prediksi Liverpool & Real Madrid kemarin masuk semua. Modal 500rb jadi 5.6jt. Makasih KAPSUL4D selalu kasih prediksi akurat! 🏅',
+    text: 'Prediksi Manchester City & Bayern kemarin masuk semua. Modal 500rb jadi 5.6jt. Makasih KAPSUL4D selalu kasih prediksi akurat! 🏅',
     stars: 5,
     time: '1 hari lalu',
     avatarColor: 'pink',
